@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>EmotiSense — Understand Emotions in Your Text</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --purple: #6c4fe0;
+    --purple-light: #7c5ce8;
+    --purple-dim: #ede9fb;
+    --purple-faint: #f4f1fd;
+    --green: #22c55e;
+    --green-bg: #f0fdf4;
+    --text-dark: #1a1a2e;
+    --text-mid: #4a4a6a;
+    --text-muted: #9090b0;
+    --border: #e5e5f0;
+    --bg: #f3f2f8;
+    --card: #ffffff;
+    --radius: 16px;
+    --radius-sm: 10px;
+    --shadow: 0 2px 16px rgba(108, 79, 224, 0.07);
+    --shadow-lg: 0 4px 32px rgba(108, 79, 224, 0.1);
+  }
+
+  html, body {
+    min-height: 100vh;
+    background: var(--bg);
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--text-dark);
+    font-size: 15px;
+  }
+
+  /* ── NAV ── */
+  nav {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    height: 68px;
+    gap: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    margin-right: 48px;
+  }
+  .nav-logo-icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid var(--purple);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .nav-logo-text {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+  .nav-logo-text span { color: var(--purple); }
+  .nav-links {
+    display: flex;
+    gap: 36px;
+    list-style: none;
+    flex: 1;
+  }
+  .nav-links a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--text-mid);
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.2s;
+  }
+  .nav-links a.active { color: var(--purple); }
+  .nav-links a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0; right: 0;
+    height: 2.5px;
+    background: var(--purple);
+    border-radius: 2px;
+  }
+  .nav-links a:hover { color: var(--purple); }
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .icon-btn {
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    color: var(--text-mid);
+  }
+  .icon-btn:hover { background: var(--purple-dim); }
+  .history-btn {
+    background: var(--purple);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 9px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .history-btn:hover { background: var(--purple-light); }
+  .history-btn:active { transform: scale(0.97); }
+
+  /* ── HERO ── */
+  .hero {
+    text-align: center;
+    padding: 56px 20px 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-deco {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  .deco-wave { top: 60px; left: 100px; font-size: 22px; color: var(--purple); opacity: 0.5; }
+  .deco-star1 { top: 40px; left: 160px; font-size: 18px; color: var(--purple); }
+  .deco-face { top: 80px; right: 140px; font-size: 28px; background: var(--purple-dim); width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+  .deco-star2 { top: 68px; right: 100px; font-size: 16px; color: #a0e080; }
+  .hero h1 {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .hero h1 em { font-style: normal; color: var(--purple); }
+  .hero p {
+    color: var(--text-mid);
+    font-size: 16px;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+
+  /* ── MAIN GRID ── */
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 28px 40px;
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    box-shadow: var(--shadow);
+  }
+
+  /* ── INPUT CARD ── */
+  .input-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .input-card-title {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+  .input-card-title .icon {
+    width: 32px;
+    height: 32px;
+    background: var(--purple-dim);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .char-counter { font-size: 13px; color: var(--text-muted); }
+  textarea {
+    width: 100%;
+    height: 240px;
+    border: 1.5px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    font-size: 14.5px;
+    font-family: inherit;
+    color: var(--text-dark);
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s;
+    line-height: 1.6;
+  }
+  textarea::placeholder { color: var(--text-muted); }
+  textarea:focus { border-color: var(--purple); }
+  .analyze-btn {
+    width: 100%;
+    margin-top: 16px;
+    background: var(--purple);
+    color: #fff;
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.2s, transform 0.1s;
+    letter-spacing: 0.2px;
+  }
+  .analyze-btn:hover { background: var(--purple-light); }
+  .analyze-btn:active { transform: scale(0.98); }
+  .analyze-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+  .privacy-note {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 14px;
+    color: var(--text-muted);
+    font-size: 13px;
+    justify-content: center;
+  }
+
+  /* ── RESULT CARD ── */
+  .result-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+  .result-card-header .pulse-icon { color: var(--purple); font-size: 20px; }
+
+  /* emotion display */
+  .emotion-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0 24px;
+  }
+  .emotion-circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #fffbe8, #fde68a);
+    box-shadow: 0 0 0 16px rgba(253, 230, 138, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 58px;
+    margin-bottom: 18px;
+    transition: all 0.4s;
+    position: relative;
+  }
+  .emotion-circle::after {
+    content: '';
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 2px dashed rgba(253, 230, 138, 0.4);
+  }
+  .emotion-label {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--green);
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+  .sentiment-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--green-bg);
+    color: var(--green);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 99px;
+  }
+  .badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+
+  /* confidence */
+  .confidence-section { margin-bottom: 22px; }
+  .confidence-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  .confidence-pct { font-weight: 800; font-size: 16px; }
+  .conf-bar-bg {
+    height: 10px;
+    background: #e5e5f0;
+    border-radius: 99px;
+    overflow: hidden;
+  }
+  .conf-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #22c55e, #4ade80);
+    border-radius: 99px;
+    width: 0%;
+    transition: width 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* breakdown */
+  .breakdown-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+  }
+  .breakdown-grid {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+  }
+  .breakdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+  }
+  .breakdown-emoji { font-size: 28px; }
+  .breakdown-name { font-size: 12px; color: var(--text-mid); font-weight: 500; }
+  .breakdown-pct { font-size: 13px; font-weight: 700; }
+  .pct-happiness { color: #f59e0b; }
+  .pct-sadness { color: #60a5fa; }
+  .pct-anger { color: #ef4444; }
+  .pct-surprise { color: #a78bfa; }
+  .pct-neutral { color: var(--green); }
+
+  /* placeholder state */
+  .placeholder-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 40px 20px;
+    color: var(--text-muted);
+    font-size: 14px;
+    text-align: center;
+  }
+  .placeholder-state .big-icon { font-size: 48px; opacity: 0.35; }
+
+  /* loading */
+  .spinner {
+    width: 38px;
+    height: 38px;
+    border: 3px solid var(--purple-dim);
+    border-top-color: var(--purple);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── FOOTER BANNER ── */
+  .footer-banner {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 0 28px;
+  }
+  .banner-inner {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 32px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  .banner-icon {
+    width: 48px;
+    height: 48px;
+    background: var(--purple-dim);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .banner-text h3 { font-size: 15px; font-weight: 700; margin-bottom: 3px; }
+  .banner-text p { font-size: 13px; color: var(--text-muted); }
+  .banner-link {
+    margin-left: auto;
+    color: var(--purple);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .banner-link:hover { text-decoration: underline; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 720px) {
+    nav { padding: 0 16px; }
+    .nav-links { gap: 20px; }
+    .hero h1 { font-size: 28px; }
+    .main-grid { grid-template-columns: 1fr; padding: 0 16px 32px; }
+    .footer-banner { padding: 0 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <a class="nav-logo" href="#">
+    <div class="nav-logo-icon">😊</div>
+    <span class="nav-logo-text">Emoti<span>Sense</span></span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Home</a></li>
+    <!-- <li><a href="#">About</a></li>
+    <li><a href="#">How It Works</a></li>
+    <li><a href="#">FAQ</a></li> -->
+  </ul>
+  <div class="nav-actions">
+    <button class="icon-btn" title="Light mode">☀️</button>
+    <button class="icon-btn" title="Dark mode">🌙</button>
+    <button class="history-btn">🕐 History</button>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-deco deco-wave">〜</div>
+  <div class="hero-deco deco-star1">✦</div>
+  <div class="hero-deco deco-face">😊</div>
+  <div class="hero-deco deco-star2">✦</div>
+  <h1>Understand <em>emotions</em> in your text</h1>
+  <p>Enter any text and let our AI analyze the emotion behind it.</p>
+</section>
+
+<!-- ── MAIN GRID ── -->
+<div class="main-grid">
+
+  <!-- Input Card -->
+  <div class="card">
+    <div class="input-card-header">
+      <div class="input-card-title">
+        <div class="icon">💬</div>
+        Your Text
+      </div>
+      <span class="char-counter"><span id="charCount">0</span> / 1000 characters</span>
+    </div>
+
+    <textarea
+      id="textInput"
+      placeholder="Type or paste your text here..."
+      maxlength="1000"
+    ></textarea>
+
+    <button class="analyze-btn" id="analyzeBtn" onclick="analyzeEmotion()">
+      ✈ &nbsp;Analyze Emotion
+    </button>
+
+    <p class="privacy-note">
+      🛡 We don't store your data. Your text is only used for analysis.
+    </p>
+  </div>
+
+  <!-- Result Card -->
+  <div class="card" id="resultCard">
+    <div class="result-card-header">
+      <span class="pulse-icon">〜</span>
+      Analysis Result
+    </div>
+    <div id="resultBody">
+      <div class="placeholder-state">
+        <div class="big-icon">😶</div>
+        <p>Enter some text and click <strong>Analyze Emotion</strong> to see the result here.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── FOOTER BANNER ── -->
+<div class="footer-banner">
+  <div class="banner-inner">
+    <div class="banner-icon">🛡</div>
+    <div class="banner-text">
+      <h3>Private & Secure</h3>
+      <p>Your privacy is our priority. We do not store or share your text.</p>
+    </div>
+    <a href="#" class="banner-link">Learn more &rsaquo;</a>
+  </div>
+</div>
+
+<script>
+  // ── Config ─────────────────────────────────────────────────────────────────
+  const API_URL = 'http://localhost:8000/predict';   // your FastAPI endpoint
+
+  // ── DOM refs ────────────────────────────────────────────────────────────────
+  const textarea   = document.getElementById('textInput');
+  const charCount  = document.getElementById('charCount');
+  const analyzeBtn = document.getElementById('analyzeBtn');
+  const resultBody = document.getElementById('resultBody');
+
+  textarea.addEventListener('input', () => {
+    charCount.textContent = textarea.value.length;
+  });
+
+  // ── Emotion meta ─────────────────────────────────────────────────────────────
+  const emotions = {
+    happiness:  { emoji: '😊', color: '#f59e0b', sentiment: 'Positive', sentimentColor: '#22c55e', sentimentBg: '#f0fdf4' },
+    joy:        { emoji: '😊', color: '#f59e0b', sentiment: 'Positive', sentimentColor: '#22c55e', sentimentBg: '#f0fdf4' },
+    sadness:    { emoji: '😢', color: '#60a5fa', sentiment: 'Negative', sentimentColor: '#ef4444', sentimentBg: '#fef2f2' },
+    anger:      { emoji: '😡', color: '#ef4444', sentiment: 'Negative', sentimentColor: '#ef4444', sentimentBg: '#fef2f2' },
+    fear:       { emoji: '😨', color: '#a78bfa', sentiment: 'Negative', sentimentColor: '#ef4444', sentimentBg: '#fef2f2' },
+    surprise:   { emoji: '😲', color: '#a78bfa', sentiment: 'Neutral',  sentimentColor: '#f59e0b', sentimentBg: '#fffbeb' },
+    disgust:    { emoji: '🤢', color: '#6b7280', sentiment: 'Negative', sentimentColor: '#ef4444', sentimentBg: '#fef2f2' },
+    love:       { emoji: '🥰', color: '#ec4899', sentiment: 'Positive', sentimentColor: '#22c55e', sentimentBg: '#f0fdf4' },
+    neutral:    { emoji: '😐', color: '#22c55e', sentiment: 'Neutral',  sentimentColor: '#f59e0b', sentimentBg: '#fffbeb' },
+    anxiety:    { emoji: '😰', color: '#8b5cf6', sentiment: 'Negative', sentimentColor: '#ef4444', sentimentBg: '#fef2f2' },
+    excitement: { emoji: '🤩', color: '#f97316', sentiment: 'Positive', sentimentColor: '#22c55e', sentimentBg: '#f0fdf4' },
+  };
+
+  // ── Breakdown helper: simulate secondary scores around the main confidence ───
+//   function buildBreakdown(primaryKey, primaryConf) {
+//     const all = ['happiness','sadness','anger','surprise','neutral'];
+//     const remaining = 100 - primaryConf;
+//     const others = all.filter(k => k !== primaryKey && k !== 'joy');
+//     const splits = others.map((_, i) => i === 0 ? Math.round(remaining * 0.5) : Math.round(remaining * 0.2));
+
+//     // ensure they add up cleanly
+//     let total = splits.reduce((a, b) => a + b, 0);
+//     splits[0] += (remaining - total);
+
+//     const emojiMap = { happiness:'😊', sadness:'😢', anger:'😡', surprise:'😲', neutral:'😐' };
+//     const colorMap = { happiness:'pct-happiness', sadness:'pct-sadness', anger:'pct-anger', surprise:'pct-surprise', neutral:'pct-neutral' };
+
+//     // put primary first
+//     const primaryDisplay = primaryKey === 'joy' ? 'happiness' : primaryKey;
+//     const items = [
+//       { name: primaryDisplay.charAt(0).toUpperCase() + primaryDisplay.slice(1),
+//         emoji: emojiMap[primaryDisplay] || emotions[primaryKey]?.emoji || '😐',
+//         pct: primaryConf,
+//         cls: colorMap[primaryDisplay] || '' }
+//     ];
+//     others.forEach((k, i) => {
+//       items.push({
+//         name: k.charAt(0).toUpperCase() + k.slice(1),
+//         emoji: emojiMap[k] || '😐',
+//         pct: splits[i],
+//         cls: colorMap[k] || ''
+//       });
+//     });
+//     return items;
+//   }
+
+  // ── Render states ─────────────────────────────────────────────────────────────
+  function showLoading() {
+    resultBody.innerHTML = `
+      <div class="placeholder-state">
+        <div class="spinner"></div>
+        <p>Analyzing your text…</p>
+      </div>`;
+  }
+
+  function showResult(apiResponse) {
+    // Your API returns: { text, emotion, confidence }
+    const key  = (apiResponse.emotion || 'neutral').toLowerCase();
+    const em   = emotions[key] || emotions.neutral;
+    const conf = Math.min(100, Math.max(0, Math.round(parseFloat(apiResponse.confidence) || 50)));
+    const capLabel = key.charAt(0).toUpperCase() + key.slice(1);
+
+    // const breakdown = buildBreakdown(key, conf);
+    // const breakdownHTML = breakdown.map(b => `
+    //   <div class="breakdown-item">
+    //     <span class="breakdown-emoji">${b.emoji}</span>
+    //     <span class="breakdown-name">${b.name}</span>
+    //     <span class="breakdown-pct ${b.cls}">${b.pct}%</span>
+    //   </div>`).join('');
+
+    resultBody.innerHTML = `
+    <div class="emotion-display">
+      <div class="emotion-circle">${em.emoji}</div>
+      <div class="emotion-label" style="color:${em.color}">${capLabel}</div>
+      <span class="sentiment-badge" style="background:${em.sentimentBg};color:${em.sentimentColor}">
+        <span class="badge-dot" style="background:${em.sentimentColor}"></span>
+        ${em.sentiment}
+      </span>
+    </div>
+
+    <div class="confidence-section">
+      <div class="confidence-row">
+        <span>Confidence Score</span>
+        <span class="confidence-pct">${conf}%</span>
+      </div>
+
+      <div class="conf-bar-bg">
+        <div class="conf-bar" id="confBar"
+            style="background:linear-gradient(90deg,${em.color},${em.color}bb)">
+        </div>
+      </div>
+    </div>
+
+    <p style="font-size:11.5px;color:var(--text-muted);margin-top:14px;text-align:center">
+      "${apiResponse.text}"
+    </p>
+  `;
+
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        const bar = document.getElementById('confBar');
+        if (bar) bar.style.width = conf + '%';
+      }, 60);
+    });
+  }
+
+  function showError(msg, isNetwork) {
+    resultBody.innerHTML = `
+      <div class="placeholder-state">
+        <div class="big-icon">⚠️</div>
+        <p style="color:#ef4444;max-width:280px">${msg}</p>
+        ${isNetwork ? `<p style="font-size:12px;color:var(--text-muted);margin-top:6px">
+          Make sure your FastAPI server is running:<br>
+          <code style="background:#f3f2f8;padding:2px 6px;border-radius:4px;font-size:11px">
+            uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+          </code></p>` : ''}
+      </div>`;
+  }
+
+  // ── Main fetch ─────────────────────────────────────────────────────────────────
+  async function analyzeEmotion() {
+    const text = textarea.value.trim();
+    if (!text) {
+      textarea.focus();
+      textarea.style.borderColor = 'var(--purple)';
+      setTimeout(() => textarea.style.borderColor = '', 1200);
+      return;
+    }
+
+    analyzeBtn.disabled = true;
+    showLoading();
+
+    try {
+      const res = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })          // { "text": "..." }
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err?.detail || err?.message || `Server error ${res.status}`);
+      }
+
+      // Expected: { "text": "...", "emotion": "sadness", "confidence": 84.29 }
+      const data = await res.json();
+      showResult(data);
+
+    } catch (err) {
+      const isNetwork = err instanceof TypeError; // fetch failed = network/CORS
+      showError(isNetwork ? 'Could not reach the API server.' : err.message, isNetwork);
+    } finally {
+      analyzeBtn.disabled = false;
+    }
+  }
+
+  // Ctrl/Cmd + Enter shortcut
+  textarea.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) analyzeEmotion();
+  });
+</script>
+</body>
+</html>
