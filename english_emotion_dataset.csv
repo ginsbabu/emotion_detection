@@ -1,0 +1,1924 @@
+text,emotion,intensity
+"I just got promoted at work! This is the best day of my life!",joy,high
+"My dog passed away yesterday. I miss him so much.",sadness,high
+"I can't believe they lied to me after all I've done for them.",anger,high
+"There's something moving in the dark hallway and I'm home alone.",fear,high
+"Ew, there were maggots in the food I just ate.",disgust,high
+"I wasn't expecting to win the award. Wow, I don't know what to say!",surprise,high
+"She smiled at me and my heart just melted.",joy,medium
+"I feel so empty after he left.",sadness,medium
+"Stop interrupting me when I'm talking!",anger,medium
+"I'm not sure I want to walk through that alley at night.",fear,medium
+"The smell in that bathroom was absolutely revolting.",disgust,medium
+"Oh! I didn't see you standing there.",surprise,medium
+"Everything is going great today, I'm really happy.",joy,low
+"I've been feeling a little down lately.",sadness,low
+"That was a bit rude of him.",anger,low
+"That loud noise startled me a little.",fear,low
+"I don't really enjoy the taste of liver.",disgust,low
+"Huh, I didn't know that fact before.",surprise,low
+"We finally adopted a baby after years of trying. I'm overjoyed!",joy,high
+"I found out my best friend has been talking behind my back.",sadness,high
+"How dare they fire me without even giving a reason!",anger,high
+"I think someone is following me — I keep hearing footsteps.",fear,high
+"He just spit right on the sidewalk in front of everyone.",disgust,medium
+"I opened the box and found a puppy with a bow on it!",surprise,high
+"Spending time with my family always makes me feel warm inside.",joy,medium
+"No one remembered my birthday this year.",sadness,medium
+"I've asked him three times already and he keeps ignoring me.",anger,medium
+"The thought of flying makes my palms sweaty.",fear,medium
+"There's mold all over the bread I just bought.",disgust,medium
+"I had no idea the meeting was today!",surprise,medium
+"Today was a really productive day and I'm proud of myself.",joy,medium
+"It's been weeks and I still can't get over the breakup.",sadness,high
+"I'm furious that he took credit for my work.",anger,high
+"Walking alone at midnight is making me feel uneasy.",fear,medium
+"That movie scene with the cockroaches made me physically sick.",disgust,high
+"She just showed up at the door out of nowhere!",surprise,medium
+"I got tickets to see my favorite band live!",joy,high
+"I lost the job I worked so hard to get.",sadness,high
+"The way he spoke to that waiter was absolutely unacceptable.",anger,medium
+"The dog started growling at me and I froze.",fear,high
+"I can't eat this — it smells rotten.",disgust,high
+"They threw me a surprise party and I had no idea!",surprise,high
+"I'm really looking forward to the weekend trip.",joy,low
+"I feel lonely even when I'm surrounded by people.",sadness,medium
+"I'm getting really tired of being disrespected.",anger,medium
+"Something just brushed against my leg in the dark.",fear,high
+"The public restroom was absolutely disgusting.",disgust,medium
+"I can't believe the plot twist at the end of the book!",surprise,high
+"Watching the sunset with someone I love is pure bliss.",joy,high
+"He moved away and I didn't even get to say goodbye.",sadness,high
+"She raised her voice at me and I completely lost it.",anger,high
+"I have to give a speech in front of 500 people tomorrow.",fear,medium
+"The garbage smell is overwhelming today.",disgust,low
+"My long-lost cousin just found me on social media!",surprise,high
+"I can't stop smiling after reading her message.",joy,medium
+"It's been raining for days and it's making me feel blue.",sadness,low
+"He keeps cutting in line and it's infuriating.",anger,medium
+"That horror movie had me hiding under my blanket.",fear,medium
+"I found a hair in my soup at the restaurant.",disgust,medium
+"I had no idea there would be fireworks tonight — beautiful!",surprise,low
+"I just landed my dream job — I feel on top of the world!",joy,high
+"My grandmother's health is deteriorating and it breaks my heart.",sadness,high
+"I'm so angry I could scream right now.",anger,high
+"The car behind me is driving really close and it's making me nervous.",fear,medium
+"There were bugs crawling inside the fruit.",disgust,high
+"He proposed to me in front of everyone — I was speechless!",surprise,high
+"Life is good and I'm grateful for everything I have.",joy,medium
+"I feel like nobody truly understands me.",sadness,medium
+"I'm fed up with being taken for granted.",anger,medium
+"She was nervous before the big presentation.",fear,low
+"I accidentally ate something spoiled and felt sick immediately.",disgust,high
+"The fire alarm went off in the middle of the night.",surprise,medium
+"Playing with my kids in the park filled my heart with joy.",joy,high
+"I keep replaying our last conversation in my head.",sadness,medium
+"I'm absolutely livid about what happened today.",anger,high
+"The strange sound from upstairs made me freeze in my tracks.",fear,high
+"That scene in the documentary about factory farming was horrifying.",disgust,high
+"I turned around and my whole team was there to celebrate with me!",surprise,high
+"A warm cup of coffee on a cold morning makes me so happy.",joy,low
+"The silence after he left is unbearable.",sadness,high
+"I have zero tolerance for dishonesty.",anger,medium
+"Thinking about getting on that rollercoaster makes me anxious.",fear,medium
+"The texture of that slime was absolutely repulsive.",disgust,medium
+"She called me after 10 years out of the blue!",surprise,high
+"I feel so proud of how far I've come.",joy,medium
+"I cried all night after hearing the news.",sadness,high
+"I can't believe he had the nerve to show up here.",anger,high
+"The news report scared me enough to double-lock my doors.",fear,medium
+"The kitchen hadn't been cleaned in months and it was revolting.",disgust,high
+"I opened the email and saw I'd won the scholarship!",surprise,high
+"My heart is full after spending time with old friends.",joy,high
+"I feel abandoned and completely alone.",sadness,high
+"His condescending tone pushes all my buttons.",anger,medium
+"Heights make my heart race and my knees go weak.",fear,high
+"The unwashed dishes had green fungus growing on them.",disgust,high
+"I wasn't expecting the standing ovation — I was totally caught off guard.",surprise,high
+"Everything just feels right today.",joy,low
+"I miss the way things used to be.",sadness,medium
+"I just got promoted at work! This is the best day of my life!",joy,high
+"My dog passed away yesterday. I miss him so much.",sadness,high
+"I can't believe they lied to me after all I've done for them.",anger,high
+"There's something moving in the dark hallway and I'm home alone.",fear,high
+"Ew, there were maggots in the food I just ate.",disgust,high
+"I wasn't expecting to win the award. Wow, I don't know what to say!",surprise,high
+"She smiled at me and my heart just melted.",joy,medium
+"I got accepted into my dream university today.",joy,high
+"My vacation starts tomorrow and I can't stop smiling.",joy,high
+"I found twenty dollars on the sidewalk.",joy,medium
+"The concert was amazing and I loved every minute.",joy,high
+"My friends threw me a surprise birthday party.",joy,high
+"I finally finished the project I've been working on for months.",joy,medium
+"I feel so grateful for everyone who helped me.",joy,medium
+"We won the championship after a tough season.",joy,high
+"I laughed so hard that my stomach hurt.",joy,medium
+"My favorite artist replied to my message.",joy,high
+"The sunset tonight was absolutely beautiful.",joy,low
+"I feel content sitting here with a cup of tea.",joy,low
+"I haven't heard from my sister in weeks and I'm worried.",sadness,medium
+"The house feels empty since she moved away.",sadness,medium
+"I cried when I watched the old family videos.",sadness,medium
+"My childhood pet is very sick.",sadness,high
+"I failed the exam despite studying so hard.",sadness,high
+"I miss my best friend who moved overseas.",sadness,medium
+"The rainy weather matches my mood today.",sadness,low
+"I feel lonely even when people are around.",sadness,medium
+"They canceled the event I was looking forward to.",sadness,medium
+"I lost a sentimental necklace from my grandmother.",sadness,high
+"No one showed up to my presentation.",sadness,high
+"He interrupted me again during the meeting.",anger,medium
+"I'm tired of people taking credit for my work.",anger,high
+"The customer was incredibly rude to me.",anger,high
+"Why do they keep ignoring my requests?",anger,medium
+"Someone scratched my car and drove away.",anger,high
+"My internet keeps disconnecting during work.",anger,low
+"They broke their promise without any explanation.",anger,high
+"I waited two hours and they still weren't ready.",anger,medium
+"The unfair decision made everyone upset.",anger,medium
+"I can't stand the constant noise from next door.",anger,low
+"I heard footsteps behind me late at night.",fear,high
+"The plane suddenly dropped during turbulence.",fear,high
+"I think someone is following me.",fear,high
+"I'm nervous about the surgery tomorrow.",fear,medium
+"The strange sound outside keeps getting louder.",fear,medium
+"I forgot my lines right before going on stage.",fear,medium
+"The dog was growling aggressively at me.",fear,high
+"I felt uneasy walking through the empty parking lot.",fear,medium
+"There was a spider crawling across my pillow.",fear,low
+"The emergency alarm started ringing unexpectedly.",fear,high
+"I got an unexpected bonus in my paycheck today.",joy,high
+"My team celebrated our success together after months of hard work.",joy,high
+"I finally bought the house I've always wanted.",joy,high
+"My child took their first steps today.",joy,high
+"I reunited with an old friend after many years.",joy,medium
+"The dinner turned out even better than I expected.",joy,medium
+"I received a thoughtful gift from a coworker.",joy,medium
+"I spent the afternoon doing my favorite hobby.",joy,medium
+"The compliment made my whole day brighter.",joy,medium
+"I enjoyed a peaceful morning in the garden.",joy,low
+"The fresh breeze felt wonderful.",joy,low
+"I smiled when I saw the puppy playing outside.",joy,low
+"My favorite song came on the radio.",joy,low
+"I had a pleasant conversation with a stranger.",joy,low
+"The coffee shop remembered my usual order.",joy,low
+"I felt relaxed watching the sunset.",joy,low
+"My plants are growing well this season.",joy,low
+"I enjoyed reading a good book tonight.",joy,low
+"The park was beautiful this morning.",joy,low
+"I appreciated the quiet moment alone.",joy,low
+"I miss my hometown more than ever lately.",sadness,medium
+"My best friend forgot my birthday.",sadness,medium
+"I feel disconnected from everyone around me.",sadness,medium
+"The movie reminded me of someone I lost.",sadness,medium
+"I haven't felt motivated in weeks.",sadness,medium
+"My vacation ended sooner than I wanted.",sadness,low
+"The empty room brought back old memories.",sadness,low
+"I was disappointed by the outcome.",sadness,low
+"I didn't get the opportunity I hoped for.",sadness,medium
+"My favorite restaurant closed permanently.",sadness,medium
+"The rejection email ruined my afternoon.",sadness,medium
+"I couldn't stop crying after hearing the news.",sadness,high
+"My grandmother passed away peacefully last night.",sadness,high
+"The divorce has been incredibly painful.",sadness,high
+"I lost everything in the flood.",sadness,high
+"The farewell at the airport was heartbreaking.",sadness,high
+"I feel devastated after losing my job.",sadness,high
+"My childhood home was demolished.",sadness,high
+"The loneliness feels overwhelming today.",sadness,high
+"I regret not spending more time with him before he died.",sadness,high
+"They kept interrupting me during my presentation.",anger,medium
+"My order was completely wrong again.",anger,medium
+"The company ignored all our complaints.",anger,high
+"I worked hard and someone else got the credit.",anger,high
+"The referee's decision was unbelievably unfair.",anger,high
+"My neighbor keeps blasting loud music at midnight.",anger,medium
+"I was stuck on hold for an hour.",anger,low
+"The website crashed right before I submitted my work.",anger,low
+"They accused me without knowing the facts.",anger,high
+"My package arrived damaged.",anger,medium
+"The meeting could have been an email.",anger,low
+"I can't believe they canceled at the last minute.",anger,medium
+"The constant delays are driving me crazy.",anger,medium
+"He broke my trust and expects forgiveness.",anger,high
+"Someone vandalized my property.",anger,high
+"I felt irritated by the endless notifications.",anger,low
+"They refused to listen to my side of the story.",anger,high
+"The rude comment really upset me.",anger,medium
+"I was angry about the hidden fees.",anger,medium
+"The service was terrible from start to finish.",anger,medium
+"I heard glass shatter downstairs in the middle of the night.",fear,high
+"The thunderstorm seemed to be getting closer.",fear,medium
+"I think I left the stove on before leaving home.",fear,medium
+"The doctor said they needed more tests.",fear,high
+"I got lost in an unfamiliar city after dark.",fear,high
+"The roller coaster stopped unexpectedly.",fear,medium
+"I felt uneasy when the power went out.",fear,medium
+"The barking dog kept approaching me.",fear,medium
+"I was nervous before the interview.",fear,low
+"The strange message worried me.",fear,low
+"I saw a shadow move outside the window.",fear,high
+"The road was icy and hard to drive on.",fear,medium
+"I thought I heard someone calling my name.",fear,medium
+"The fire alarm suddenly started ringing.",fear,high
+"I was afraid of failing the final exam.",fear,low
+"The suspense in the movie made me tense.",fear,low
+"I panicked when I couldn't find my child.",fear,high
+"The elevator stopped between floors.",fear,high
+"I felt anxious waiting for the results.",fear,medium
+"The abandoned building gave me chills.",fear,medium
+"The smell coming from the fridge was awful.",disgust,medium
+"I found a hair in my soup.",disgust,medium
+"The bathroom floor was covered in grime.",disgust,high
+"The spoiled milk made me gag.",disgust,high
+"There were insects crawling across the counter.",disgust,high
+"The garbage bin hadn't been emptied for weeks.",disgust,medium
+"The sticky table felt gross.",disgust,low
+"I stepped in something unpleasant.",disgust,low
+"The rotten fruit attracted flies.",disgust,medium
+"The dirty dishes were piled to the ceiling.",disgust,medium
+"I saw mold growing inside the container.",disgust,high
+"The smell of sewage was unbearable.",disgust,high
+"The restroom was completely filthy.",disgust,high
+"The stain on the carpet looked disgusting.",disgust,low
+"The food looked unappetizing.",disgust,low
+"I wasn't expecting everyone to sing for me.",surprise,high
+"The announcement shocked the entire office.",surprise,high
+"I suddenly ran into my teacher from years ago.",surprise,medium
+"The gift inside the box was not what I imagined.",surprise,medium
+"I received a call from a celebrity.",surprise,high
+"The ending of the book caught me off guard.",surprise,medium
+"My flight was upgraded for free.",surprise,high
+"I didn't expect the meeting to end so quickly.",surprise,low
+"The results were completely different from predictions.",surprise,medium
+"They revealed a secret I never saw coming.",surprise,high
+"I woke up to wonderful news this morning.",joy,high
+"My artwork won first place in the competition.",joy,high
+"I finally achieved a goal I've chased for years.",joy,high
+"My family surprised me with a celebration.",joy,high
+"I got tickets to see my favorite band.",joy,medium
+"The weekend trip was exactly what I needed.",joy,medium
+"I had a great workout and feel energized.",joy,medium
+"My colleague thanked me for my help.",joy,medium
+"I enjoyed cooking dinner with my family.",joy,medium
+"The flowers in my garden are blooming.",joy,low
+"I found a comfortable spot to relax.",joy,low
+"The day started off nicely.",joy,low
+"I enjoyed listening to birds outside.",joy,low
+"My favorite snack was on sale.",joy,low
+"The room felt warm and cozy.",joy,low
+"I had a pleasant walk through the neighborhood.",joy,low
+"The movie made me smile.",joy,low
+"I felt calm sitting by the lake.",joy,low
+"I enjoyed spending time with my pet.",joy,low
+"The meal was simple but satisfying.",joy,low
+"I received positive feedback from my manager.",joy,medium
+"My friends invited me on a fun outing.",joy,medium
+"The event exceeded my expectations.",joy,medium
+"I finally learned how to do something difficult.",joy,medium
+"My team completed the project successfully.",joy,medium
+"I got a scholarship for my studies.",joy,high
+"The doctor said everything looks great.",joy,high
+"We welcomed a new baby into the family.",joy,high
+"I was selected for a prestigious program.",joy,high
+"My business reached a major milestone.",joy,high
+"I miss the way things used to be.",sadness,medium
+"The rainy afternoon made me feel gloomy.",sadness,low
+"I felt left out of the conversation.",sadness,medium
+"My favorite show ended today.",sadness,low
+"I couldn't stop thinking about the past.",sadness,medium
+"The empty chair reminded me of her.",sadness,medium
+"I wish I had another chance.",sadness,medium
+"The farewell letter made me cry.",sadness,high
+"I feel heartbroken after the breakup.",sadness,high
+"The loss still hurts every day.",sadness,high
+"I didn't get the job I wanted.",sadness,medium
+"My plans fell apart unexpectedly.",sadness,medium
+"I was disappointed by their response.",sadness,low
+"I feel distant from my old friends.",sadness,medium
+"The memory brought tears to my eyes.",sadness,medium
+"I spent the evening feeling lonely.",sadness,medium
+"The cancellation ruined something important to me.",sadness,medium
+"I regret the argument we had.",sadness,medium
+"My dreams seem out of reach right now.",sadness,medium
+"I feel emotionally exhausted.",sadness,high
+"The bad news left me devastated.",sadness,high
+"My pet ran away and I can't find it.",sadness,high
+"I lost years of work due to a computer failure.",sadness,high
+"The funeral was difficult to attend.",sadness,high
+"I can't accept that they're gone.",sadness,high
+"My relationship ended unexpectedly.",sadness,high
+"I cried myself to sleep last night.",sadness,high
+"The diagnosis changed everything.",sadness,high
+"I feel broken after what happened.",sadness,high
+"The disappointment was overwhelming.",sadness,high
+"The unfair treatment made me furious.",anger,high
+"They blamed me for their mistake.",anger,high
+"My request was ignored again.",anger,medium
+"The constant interruptions are irritating.",anger,medium
+"I hate being lied to.",anger,high
+"The broken promise upset me deeply.",anger,high
+"I was angry about the lack of respect.",anger,medium
+"The customer yelled at me for no reason.",anger,high
+"I can't stand the constant delays.",anger,medium
+"They wasted my entire afternoon.",anger,medium
+"The software crashed for the third time today.",anger,low
+"I was annoyed by the long queue.",anger,low
+"The noisy construction woke me up early.",anger,low
+"They arrived an hour late.",anger,medium
+"My concerns were dismissed immediately.",anger,high
+"The rude email irritated me.",anger,medium
+"I felt frustrated during the discussion.",anger,medium
+"The decision seemed completely unfair.",anger,high
+"Someone took my parking spot.",anger,low
+"They never take responsibility for anything.",anger,high
+"I lost my temper during the argument.",anger,high
+"The broken equipment ruined the event.",anger,medium
+"The lack of communication is unacceptable.",anger,high
+"I was furious when I saw the damage.",anger,high
+"They changed the rules without warning.",anger,medium
+"My order was missing items.",anger,low
+"The criticism felt unfair.",anger,medium
+"I couldn't believe how disrespectful they were.",anger,high
+"They kept making the same mistake.",anger,medium
+"The delay cost me an important opportunity.",anger,high
+"I heard a scream outside late at night.",fear,high
+"The dark forest made me uncomfortable.",fear,medium
+"I thought someone was watching me.",fear,high
+"The bridge looked unstable.",fear,medium
+"I felt nervous speaking in front of everyone.",fear,low
+"The unexpected call worried me.",fear,medium
+"I panicked when I couldn't find my wallet.",fear,medium
+"The emergency landing scared everyone.",fear,high
+"The strange figure in the distance frightened me.",fear,high
+"I was afraid to check the test results.",fear,low
+"The loud bang startled me.",fear,medium
+"I felt trapped in the crowded elevator.",fear,medium
+"The power outage left me uneasy.",fear,medium
+"I worried about the storm all day.",fear,low
+"I felt anxious before the surgery.",fear,high
+"The unknown noise kept me awake.",fear,medium
+"The dog barked aggressively at me.",fear,medium
+"I was terrified when the car skidded.",fear,high
+"The warning message seemed serious.",fear,medium
+"I feared the worst after hearing the news.",fear,high
+"The abandoned road looked dangerous.",fear,medium
+"I was nervous about meeting them.",fear,low
+"The shaking building caused panic.",fear,high
+"I thought I saw someone hiding nearby.",fear,high
+"The suspense made my heart race.",fear,low
+"I felt vulnerable walking alone.",fear,medium
+"The sudden silence was unsettling.",fear,medium
+"I was scared to answer the phone.",fear,low
+"The smoke alarm went off unexpectedly.",fear,high
+"The situation felt threatening.",fear,high
+"The spoiled meat smelled horrible.",disgust,high
+"I found mold inside the container.",disgust,high
+"The dirty sink was covered in grime.",disgust,medium
+"There was a bug in my drink.",disgust,high
+"The restroom smelled awful.",disgust,high
+"The sticky floor felt gross.",disgust,low
+"The rotten vegetables attracted insects.",disgust,medium
+"I nearly gagged from the smell.",disgust,high
+"The trash was overflowing.",disgust,medium
+"I stepped into a puddle of something unpleasant.",disgust,medium
+"The food looked spoiled.",disgust,medium
+"The stain on the mattress was disgusting.",disgust,high
+"I found hair mixed into the meal.",disgust,medium
+"The kitchen hadn't been cleaned in weeks.",disgust,medium
+"The odor was unbearable.",disgust,high
+"The sight made me lose my appetite.",disgust,medium
+"The moldy bread was revolting.",disgust,high
+"The dirty dishes were attracting flies.",disgust,medium
+"I couldn't stand the smell.",disgust,medium
+"The garbage leak was disgusting.",disgust,high
+"The toilet was completely filthy.",disgust,high
+"The spoiled leftovers made me nauseous.",disgust,high
+"The greasy surface felt unpleasant.",disgust,low
+"I saw cockroaches under the sink.",disgust,high
+"The old food had gone bad.",disgust,medium
+"The slimy texture was awful.",disgust,medium
+"The smell in the basement was revolting.",disgust,high
+"The dirty carpet looked disgusting.",disgust,low
+"The unhygienic conditions bothered me.",disgust,medium
+"There were worms in the compost bin.",disgust,high
+"I never expected to see them here.",surprise,medium
+"The announcement shocked everyone.",surprise,high
+"I opened the package and gasped.",surprise,medium
+"The ending completely surprised me.",surprise,high
+"I received an unexpected invitation.",surprise,medium
+"They showed up at my door without warning.",surprise,medium
+"The results were much better than expected.",surprise,high
+"I found money in an old jacket pocket.",surprise,medium
+"The sudden applause caught me off guard.",surprise,medium
+"I couldn't believe what I was hearing.",surprise,high
+"The gift was something I never imagined.",surprise,high
+"My friend revealed a huge secret.",surprise,high
+"The unexpected message made me pause.",surprise,low
+"I ran into an old classmate overseas.",surprise,medium
+"The crowd reaction surprised me.",surprise,medium
+"The plot twist was incredible.",surprise,high
+"I wasn't expecting such a quick response.",surprise,low
+"The news came completely out of nowhere.",surprise,high
+"They announced my name as the winner.",surprise,high
+"The sudden change of plans shocked me.",surprise,medium
+"I received a promotion without expecting it.",surprise,high
+"The room went silent unexpectedly.",surprise,medium
+"I discovered a hidden compartment in the desk.",surprise,medium
+"The final score surprised everyone.",surprise,high
+"The unexpected visitor made me jump.",surprise,medium
+"I got an email I never thought I'd receive.",surprise,high
+"The reveal left me speechless.",surprise,high
+"I found an old photo I forgot existed.",surprise,low
+"The coincidence was unbelievable.",surprise,medium
+"The unexpected opportunity changed everything.",surprise,high
+"I woke up to wonderful news this morning.",joy,high
+"My artwork won first place in the competition.",joy,high
+"I finally achieved a goal I've chased for years.",joy,high
+"My family surprised me with a celebration.",joy,high
+"I got tickets to see my favorite band.",joy,medium
+"The weekend trip was exactly what I needed.",joy,medium
+"I had a great workout and feel energized.",joy,medium
+"My colleague thanked me for my help.",joy,medium
+"I enjoyed cooking dinner with my family.",joy,medium
+"The flowers in my garden are blooming.",joy,low
+"I found a comfortable spot to relax.",joy,low
+"The day started off nicely.",joy,low
+"I enjoyed listening to birds outside.",joy,low
+"My favorite snack was on sale.",joy,low
+"The room felt warm and cozy.",joy,low
+"I had a pleasant walk through the neighborhood.",joy,low
+"The movie made me smile.",joy,low
+"I felt calm sitting by the lake.",joy,low
+"I enjoyed spending time with my pet.",joy,low
+"The meal was simple but satisfying.",joy,low
+"I received positive feedback from my manager.",joy,medium
+"My friends invited me on a fun outing.",joy,medium
+"The event exceeded my expectations.",joy,medium
+"I finally learned how to do something difficult.",joy,medium
+"My team completed the project successfully.",joy,medium
+"I got a scholarship for my studies.",joy,high
+"The doctor said everything looks great.",joy,high
+"We welcomed a new baby into the family.",joy,high
+"I was selected for a prestigious program.",joy,high
+"My business reached a major milestone.",joy,high
+"I miss the way things used to be.",sadness,medium
+"The rainy afternoon made me feel gloomy.",sadness,low
+"I felt left out of the conversation.",sadness,medium
+"My favorite show ended today.",sadness,low
+"I couldn't stop thinking about the past.",sadness,medium
+"The empty chair reminded me of her.",sadness,medium
+"I wish I had another chance.",sadness,medium
+"The farewell letter made me cry.",sadness,high
+"I feel heartbroken after the breakup.",sadness,high
+"The loss still hurts every day.",sadness,high
+"I didn't get the job I wanted.",sadness,medium
+"My plans fell apart unexpectedly.",sadness,medium
+"I was disappointed by their response.",sadness,low
+"I feel distant from my old friends.",sadness,medium
+"The memory brought tears to my eyes.",sadness,medium
+"I spent the evening feeling lonely.",sadness,medium
+"The cancellation ruined something important to me.",sadness,medium
+"I regret the argument we had.",sadness,medium
+"My dreams seem out of reach right now.",sadness,medium
+"I feel emotionally exhausted.",sadness,high
+"The bad news left me devastated.",sadness,high
+"My pet ran away and I can't find it.",sadness,high
+"I lost years of work due to a computer failure.",sadness,high
+"The funeral was difficult to attend.",sadness,high
+"I can't accept that they're gone.",sadness,high
+"My relationship ended unexpectedly.",sadness,high
+"I cried myself to sleep last night.",sadness,high
+"The diagnosis changed everything.",sadness,high
+"I feel broken after what happened.",sadness,high
+"The disappointment was overwhelming.",sadness,high
+"The unfair treatment made me furious.",anger,high
+"They blamed me for their mistake.",anger,high
+"My request was ignored again.",anger,medium
+"The constant interruptions are irritating.",anger,medium
+"I hate being lied to.",anger,high
+"The broken promise upset me deeply.",anger,high
+"I was angry about the lack of respect.",anger,medium
+"The customer yelled at me for no reason.",anger,high
+"I can't stand the constant delays.",anger,medium
+"They wasted my entire afternoon.",anger,medium
+"The software crashed for the third time today.",anger,low
+"I was annoyed by the long queue.",anger,low
+"The noisy construction woke me up early.",anger,low
+"They arrived an hour late.",anger,medium
+"My concerns were dismissed immediately.",anger,high
+"The rude email irritated me.",anger,medium
+"I felt frustrated during the discussion.",anger,medium
+"The decision seemed completely unfair.",anger,high
+"Someone took my parking spot.",anger,low
+"They never take responsibility for anything.",anger,high
+"I lost my temper during the argument.",anger,high
+"The broken equipment ruined the event.",anger,medium
+"The lack of communication is unacceptable.",anger,high
+"I was furious when I saw the damage.",anger,high
+"They changed the rules without warning.",anger,medium
+"My order was missing items.",anger,low
+"The criticism felt unfair.",anger,medium
+"I couldn't believe how disrespectful they were.",anger,high
+"They kept making the same mistake.",anger,medium
+"The delay cost me an important opportunity.",anger,high
+"I heard a scream outside late at night.",fear,high
+"The dark forest made me uncomfortable.",fear,medium
+"I thought someone was watching me.",fear,high
+"The bridge looked unstable.",fear,medium
+"I felt nervous speaking in front of everyone.",fear,low
+"The unexpected call worried me.",fear,medium
+"I panicked when I couldn't find my wallet.",fear,medium
+"The emergency landing scared everyone.",fear,high
+"The strange figure in the distance frightened me.",fear,high
+"I was afraid to check the test results.",fear,low
+"The loud bang startled me.",fear,medium
+"I felt trapped in the crowded elevator.",fear,medium
+"The power outage left me uneasy.",fear,medium
+"I worried about the storm all day.",fear,low
+"I felt anxious before the surgery.",fear,high
+"The unknown noise kept me awake.",fear,medium
+"The dog barked aggressively at me.",fear,medium
+"I was terrified when the car skidded.",fear,high
+"The warning message seemed serious.",fear,medium
+"I feared the worst after hearing the news.",fear,high
+"The abandoned road looked dangerous.",fear,medium
+"I was nervous about meeting them.",fear,low
+"The shaking building caused panic.",fear,high
+"I thought I saw someone hiding nearby.",fear,high
+"The suspense made my heart race.",fear,low
+"I felt vulnerable walking alone.",fear,medium
+"The sudden silence was unsettling.",fear,medium
+"I was scared to answer the phone.",fear,low
+"The smoke alarm went off unexpectedly.",fear,high
+"The situation felt threatening.",fear,high
+"The spoiled meat smelled horrible.",disgust,high
+"I found mold inside the container.",disgust,high
+"The dirty sink was covered in grime.",disgust,medium
+"There was a bug in my drink.",disgust,high
+"The restroom smelled awful.",disgust,high
+"The sticky floor felt gross.",disgust,low
+"The rotten vegetables attracted insects.",disgust,medium
+"I nearly gagged from the smell.",disgust,high
+"The trash was overflowing.",disgust,medium
+"I stepped into a puddle of something unpleasant.",disgust,medium
+"The food looked spoiled.",disgust,medium
+"The stain on the mattress was disgusting.",disgust,high
+"I found hair mixed into the meal.",disgust,medium
+"The kitchen hadn't been cleaned in weeks.",disgust,medium
+"The odor was unbearable.",disgust,high
+"The sight made me lose my appetite.",disgust,medium
+"The moldy bread was revolting.",disgust,high
+"The dirty dishes were attracting flies.",disgust,medium
+"I couldn't stand the smell.",disgust,medium
+"The garbage leak was disgusting.",disgust,high
+"The toilet was completely filthy.",disgust,high
+"The spoiled leftovers made me nauseous.",disgust,high
+"The greasy surface felt unpleasant.",disgust,low
+"I saw cockroaches under the sink.",disgust,high
+"The old food had gone bad.",disgust,medium
+"The slimy texture was awful.",disgust,medium
+"The smell in the basement was revolting.",disgust,high
+"The dirty carpet looked disgusting.",disgust,low
+"The unhygienic conditions bothered me.",disgust,medium
+"There were worms in the compost bin.",disgust,high
+"I never expected to see them here.",surprise,medium
+"The announcement shocked everyone.",surprise,high
+"I opened the package and gasped.",surprise,medium
+"The ending completely surprised me.",surprise,high
+"I received an unexpected invitation.",surprise,medium
+"They showed up at my door without warning.",surprise,medium
+"The results were much better than expected.",surprise,high
+"I found money in an old jacket pocket.",surprise,medium
+"The sudden applause caught me off guard.",surprise,medium
+"I couldn't believe what I was hearing.",surprise,high
+"The gift was something I never imagined.",surprise,high
+"My friend revealed a huge secret.",surprise,high
+"The unexpected message made me pause.",surprise,low
+"I ran into an old classmate overseas.",surprise,medium
+"The crowd reaction surprised me.",surprise,medium
+"The plot twist was incredible.",surprise,high
+"I wasn't expecting such a quick response.",surprise,low
+"The news came completely out of nowhere.",surprise,high
+"They announced my name as the winner.",surprise,high
+"The sudden change of plans shocked me.",surprise,medium
+"I received a promotion without expecting it.",surprise,high
+"The room went silent unexpectedly.",surprise,medium
+"I discovered a hidden compartment in the desk.",surprise,medium
+"The final score surprised everyone.",surprise,high
+"The unexpected visitor made me jump.",surprise,medium
+"I got an email I never thought I'd receive.",surprise,high
+"The reveal left me speechless.",surprise,high
+"I found an old photo I forgot existed.",surprise,low
+"The coincidence was unbelievable.",surprise,medium
+"The unexpected opportunity changed everything.",surprise,high
+"I was selected as employee of the month.",joy,high
+"My research paper was finally accepted.",joy,high
+"I achieved a personal record today.",joy,high
+"My family surprised me with wonderful news.",joy,high
+"I got the internship I dreamed about.",joy,high
+"The reunion with my cousins was amazing.",joy,medium
+"I enjoyed spending the day outdoors.",joy,medium
+"My friend remembered something important to me.",joy,medium
+"The event went better than expected.",joy,medium
+"I learned a new skill and felt proud.",joy,medium
+"The aroma of fresh coffee made me smile.",joy,low
+"I enjoyed the quiet of the early morning.",joy,low
+"The flowers looked beautiful today.",joy,low
+"My favorite song played unexpectedly.",joy,low
+"I found time to relax after work.",joy,low
+"The cool breeze felt refreshing.",joy,low
+"I had a pleasant chat with a neighbor.",joy,low
+"The stars were especially bright tonight.",joy,low
+"I enjoyed a peaceful evening at home.",joy,low
+"The simple gesture meant a lot to me.",joy,low
+"My hard work was finally recognized.",joy,high
+"We successfully completed the project.",joy,high
+"I couldn't stop smiling after hearing the news.",joy,high
+"The award ceremony was unforgettable.",joy,high
+"I finally accomplished a lifelong goal.",joy,high
+"I felt appreciated by everyone around me.",joy,medium
+"The trip created many happy memories.",joy,medium
+"I enjoyed helping someone today.",joy,medium
+"The positive feedback boosted my confidence.",joy,medium
+"I spent quality time with close friends.",joy,medium
+"I felt nostalgic looking at old photos.",sadness,medium
+"The empty hallway felt lonely.",sadness,low
+"I wish things had turned out differently.",sadness,medium
+"The disappointment stayed with me all day.",sadness,medium
+"I felt ignored during the gathering.",sadness,medium
+"My favorite place has changed so much.",sadness,low
+"I missed an opportunity because of bad timing.",sadness,medium
+"The argument left me feeling hurt.",sadness,medium
+"I couldn't stop thinking about my mistake.",sadness,medium
+"The goodbye was painful.",sadness,high
+"I felt devastated after the loss.",sadness,high
+"The memories made me cry.",sadness,high
+"I struggled to get out of bed today.",sadness,high
+"I feel like nobody understands me.",sadness,high
+"The rejection shattered my confidence.",sadness,high
+"I miss them every single day.",sadness,high
+"The sadness feels overwhelming.",sadness,high
+"I couldn't hold back my tears anymore.",sadness,high
+"I lost something I truly cared about.",sadness,high
+"The news left me heartbroken.",sadness,high
+"I felt frustrated by the constant delays.",anger,medium
+"They never listen to my concerns.",anger,medium
+"I was furious when I saw the damage.",anger,high
+"The unfair treatment made me angry.",anger,high
+"I can't believe they broke their promise again.",anger,high
+"The rude behavior was unacceptable.",anger,medium
+"I was annoyed by the repeated interruptions.",anger,medium
+"They blamed me unfairly.",anger,high
+"I lost my patience waiting in line.",anger,low
+"The lack of respect upset me.",anger,medium
+"The customer complaint was unreasonable.",anger,medium
+"They ignored all the warnings.",anger,medium
+"The situation made me furious.",anger,high
+"I felt insulted by their comments.",anger,high
+"The constant noise irritated me.",anger,low
+"They wasted everyone's time.",anger,medium
+"I was angry about the poor service.",anger,medium
+"The accusation made me lose my temper.",anger,high
+"They took credit for my work.",anger,high
+"I couldn't hide my frustration.",anger,medium
+"The strange sound scared me.",fear,medium
+"I felt uneasy walking home alone.",fear,medium
+"The storm seemed dangerous.",fear,medium
+"I worried about the outcome.",fear,low
+"I thought someone was behind me.",fear,high
+"The emergency alert caused panic.",fear,high
+"I was nervous before the interview.",fear,low
+"The dark room made me uncomfortable.",fear,medium
+"I feared the worst after the call.",fear,high
+"The shaking ground terrified me.",fear,high
+"I felt anxious waiting for the results.",fear,medium
+"The barking dog made me step back.",fear,medium
+"I was scared to check my messages.",fear,low
+"The silence felt unsettling.",fear,medium
+"The situation seemed threatening.",fear,high
+"I panicked when I couldn't find my phone.",fear,medium
+"The unexpected movement startled me.",fear,medium
+"I feared making the wrong decision.",fear,low
+"The loud explosion frightened everyone.",fear,high
+"I couldn't stop worrying about it.",fear,medium
+"The spoiled food smelled terrible.",disgust,high
+"I found mold in the container.",disgust,high
+"The dirty restroom disgusted me.",disgust,high
+"There was something slimy on the floor.",disgust,medium
+"The smell made me gag.",disgust,high
+"I couldn't stand the mess.",disgust,medium
+"The sink was covered in grime.",disgust,medium
+"The rotten fruit attracted flies.",disgust,medium
+"The sight turned my stomach.",disgust,high
+"I found hair in my drink.",disgust,medium
+"The sticky surface felt gross.",disgust,low
+"The garbage smell was overwhelming.",disgust,high
+"The spoiled leftovers were revolting.",disgust,high
+"There were insects in the kitchen.",disgust,high
+"The dirty dishes had piled up.",disgust,medium
+"The odor was hard to tolerate.",disgust,medium
+"The stain looked disgusting.",disgust,low
+"The mold spread across the ceiling.",disgust,high
+"The food looked unappetizing.",disgust,low
+"I nearly lost my appetite.",disgust,medium
+"I never expected to win the raffle.",surprise,high
+"The announcement shocked the audience.",surprise,high
+"I received an unexpected phone call.",surprise,medium
+"The gift caught me off guard.",surprise,medium
+"I couldn't believe the results.",surprise,high
+"They revealed a secret unexpectedly.",surprise,high
+"The ending was completely unexpected.",surprise,high
+"I found money in an old drawer.",surprise,medium
+"The sudden applause surprised me.",surprise,medium
+"I ran into an old friend abroad.",surprise,medium
+"The news came out of nowhere.",surprise,high
+"I wasn't expecting such kindness.",surprise,medium
+"The coincidence amazed me.",surprise,medium
+"I discovered something valuable accidentally.",surprise,medium
+"The opportunity appeared unexpectedly.",surprise,high
+"The crowd reaction shocked everyone.",surprise,high
+"I got an email I never expected.",surprise,high
+"The reveal left me speechless.",surprise,high
+"The outcome surprised all of us.",surprise,medium
+"I didn't see that coming at all.",surprise,high
+"I finally bought my first car today.",joy,high
+"My application was approved this morning.",joy,high
+"I got a standing ovation after my speech.",joy,high
+"The team celebrated our achievement together.",joy,high
+"I reached a milestone I never thought possible.",joy,high
+"My friends organized a wonderful surprise for me.",joy,high
+"I couldn't stop smiling during the entire event.",joy,high
+"My dream vacation is finally happening.",joy,high
+"I was thrilled to hear the good news.",joy,high
+"The promotion exceeded all my expectations.",joy,high
+"I had a great conversation with an old friend.",joy,medium
+"My favorite restaurant reopened.",joy,medium
+"I spent the day doing things I love.",joy,medium
+"The class went much better than expected.",joy,medium
+"I felt proud of what I accomplished today.",joy,medium
+"My coworkers were very supportive.",joy,medium
+"The project turned out really well.",joy,medium
+"I received a thoughtful compliment.",joy,medium
+"The family gathering was enjoyable.",joy,medium
+"I finally solved a difficult problem.",joy,medium
+"I enjoyed watching the rain from my window.",joy,low
+"The fresh air felt nice.",joy,low
+"I had a relaxing afternoon.",joy,low
+"The meal was satisfying.",joy,low
+"I liked the book I finished today.",joy,low
+"The room felt cozy and comfortable.",joy,low
+"I enjoyed the peaceful atmosphere.",joy,low
+"The morning sunlight brightened my mood.",joy,low
+"I appreciated the quiet moment.",joy,low
+"My walk through the park was pleasant.",joy,low
+"I miss spending time with them.",sadness,medium
+"The empty room felt lonely.",sadness,medium
+"I felt forgotten today.",sadness,medium
+"My expectations were disappointed.",sadness,medium
+"I wish things had worked out differently.",sadness,medium
+"The memory made me emotional.",sadness,medium
+"I felt disconnected from everyone.",sadness,medium
+"My plans fell apart unexpectedly.",sadness,medium
+"The goodbye was harder than expected.",sadness,medium
+"I couldn't stop thinking about what I lost.",sadness,medium
+"The loss left a hole in my heart.",sadness,high
+"I cried after hearing the news.",sadness,high
+"My pet passed away peacefully.",sadness,high
+"I feel devastated by the breakup.",sadness,high
+"The funeral was emotionally overwhelming.",sadness,high
+"I lost someone very important to me.",sadness,high
+"The rejection broke my spirit.",sadness,high
+"I can't stop grieving.",sadness,high
+"The sadness feels unbearable.",sadness,high
+"I feel completely heartbroken.",sadness,high
+"The cloudy weather matched my mood.",sadness,low
+"I felt a little down this afternoon.",sadness,low
+"The day felt unusually empty.",sadness,low
+"I wasn't as excited as usual.",sadness,low
+"The silence made me reflective.",sadness,low
+"I felt slightly disappointed.",sadness,low
+"I missed my routine today.",sadness,low
+"The canceled plans made me sad.",sadness,low
+"I felt emotionally tired.",sadness,low
+"I wasn't feeling my best today.",sadness,low
+"They ignored my concerns again.",anger,high
+"I was furious about the accusation.",anger,high
+"The unfair decision made me angry.",anger,high
+"I can't believe they betrayed my trust.",anger,high
+"Someone damaged my property.",anger,high
+"They lied directly to my face.",anger,high
+"I was outraged by their behavior.",anger,high
+"The disrespect was unacceptable.",anger,high
+"They blamed me for their mistake.",anger,high
+"I lost my temper during the argument.",anger,high
+"The delay was frustrating.",anger,medium
+"My request was overlooked.",anger,medium
+"I felt irritated by the situation.",anger,medium
+"They interrupted me repeatedly.",anger,medium
+"The service was disappointing.",anger,medium
+"I was annoyed by the constant noise.",anger,medium
+"The misunderstanding caused frustration.",anger,medium
+"I didn't appreciate their attitude.",anger,medium
+"The meeting was unnecessarily long.",anger,medium
+"I felt upset about the outcome.",anger,medium
+"The slow internet annoyed me.",anger,low
+"I had to wait longer than expected.",anger,low
+"The traffic was irritating.",anger,low
+"My computer froze again.",anger,low
+"The noise distracted me.",anger,low
+"I spilled coffee on my notes.",anger,low
+"The printer stopped working.",anger,low
+"I misplaced my keys.",anger,low
+"The queue moved very slowly.",anger,low
+"The website wouldn't load.",anger,low
+"I heard footsteps behind me late at night.",fear,high
+"The earthquake terrified me.",fear,high
+"I thought someone was breaking into the house.",fear,high
+"The emergency alarm caused panic.",fear,high
+"I felt unsafe walking alone.",fear,high
+"The situation seemed life-threatening.",fear,high
+"The violent storm frightened everyone.",fear,high
+"I feared for my family's safety.",fear,high
+"The accident happened right in front of me.",fear,high
+"I was terrified by the loud explosion.",fear,high
+"The dark street made me nervous.",fear,medium
+"I felt uneasy about the test results.",fear,medium
+"The strange noise worried me.",fear,medium
+"I was anxious before the interview.",fear,medium
+"The uncertainty made me uncomfortable.",fear,medium
+"I worried about missing my flight.",fear,medium
+"The barking dog scared me.",fear,medium
+"I felt tense during the meeting.",fear,medium
+"The storm clouds looked threatening.",fear,medium
+"I was concerned about the outcome.",fear,medium
+"I felt slightly nervous.",fear,low
+"The suspense made me uneasy.",fear,low
+"I hesitated before opening the email.",fear,low
+"I worried about being late.",fear,low
+"The situation felt unfamiliar.",fear,low
+"I was cautious entering the room.",fear,low
+"I felt a bit anxious waiting.",fear,low
+"The possibility concerned me.",fear,low
+"I wasn't completely comfortable.",fear,low
+"I felt uncertain about the decision.",fear,low
+"There were bugs crawling on the counter.",disgust,high
+"The rotten smell made me gag.",disgust,high
+"I found mold in my lunch.",disgust,high
+"The bathroom was absolutely filthy.",disgust,high
+"There was spoiled meat in the fridge.",disgust,high
+"The sight turned my stomach.",disgust,high
+"I discovered worms in the compost.",disgust,high
+"The sewage smell was unbearable.",disgust,high
+"The food looked rotten.",disgust,high
+"I nearly vomited from the odor.",disgust,high
+"The sink looked dirty.",disgust,medium
+"The trash hadn't been taken out.",disgust,medium
+"The sticky table bothered me.",disgust,medium
+"There was hair in my soup.",disgust,medium
+"The room smelled unpleasant.",disgust,medium
+"The leftovers seemed spoiled.",disgust,medium
+"The stain looked gross.",disgust,medium
+"I stepped in something unpleasant.",disgust,medium
+"The kitchen wasn't very clean.",disgust,medium
+"The odor lingered all day.",disgust,medium
+"The food looked slightly off.",disgust,low
+"The smell wasn't very pleasant.",disgust,low
+"The floor felt sticky.",disgust,low
+"I noticed some mildew in the corner.",disgust,low
+"The dish wasn't appealing.",disgust,low
+"The room felt stuffy.",disgust,low
+"The trash can was overflowing.",disgust,low
+"I saw a dead insect near the window.",disgust,low
+"The carpet smelled musty.",disgust,low
+"The sink needed cleaning.",disgust,low
+"I wasn't expecting that announcement.",surprise,high
+"They revealed the winner unexpectedly.",surprise,high
+"I won a prize I didn't enter expecting to win.",surprise,high
+"The results shocked everyone.",surprise,high
+"I received a life-changing offer.",surprise,high
+"The ending left me speechless.",surprise,high
+"The news came completely out of nowhere.",surprise,high
+"I couldn't believe what I was hearing.",surprise,high
+"They threw me a surprise celebration.",surprise,high
+"The discovery changed everything.",surprise,high
+"I got an unexpected gift.",surprise,medium
+"My friend suddenly visited.",surprise,medium
+"The email caught me off guard.",surprise,medium
+"I found money in an old jacket.",surprise,medium
+"The announcement was unexpected.",surprise,medium
+"I ran into someone I knew.",surprise,medium
+"The coincidence amazed me.",surprise,medium
+"I wasn't expecting such good news.",surprise,medium
+"The package arrived early.",surprise,medium
+"The reaction surprised me.",surprise,medium
+"The answer was different than expected.",surprise,low
+"I didn't see that coming.",surprise,low
+"The change happened suddenly.",surprise,low
+"The timing was unexpected.",surprise,low
+"I noticed something unusual.",surprise,low
+"The outcome was mildly surprising.",surprise,low
+"I raised my eyebrows at the news.",surprise,low
+"The message caught my attention.",surprise,low
+"I wasn't prepared for that response.",surprise,low
+"The event unfolded differently than expected.",surprise,low
+The whole family was together for the first time in years.,joy,medium
+My best friend got her visa approved.,joy,medium
+I was deceived.,anger,high
+The baby smiled for the first time.,joy,medium
+I didn't expect it to end like this.,sadness,medium
+I don't want to know what's in that room.,fear,high
+We had the best family dinner.,joy,medium
+The jar had something growing inside.,disgust,high
+Something about this situation is deeply wrong.,fear,high
+He came home safe.,joy,medium
+She put on someone else's used retainer.,disgust,high
+There was something alive in the fruit.,disgust,high
+She let her child smear food on everything.,disgust,high
+He doesn't need me anymore.,sadness,medium
+I cried during the drive home.,sadness,medium
+He licked the knife and put it back in the dish.,disgust,high
+They don't value loyalty.,anger,high
+She delivered twins neither doctor predicted.,surprise,high
+They treated me like a suspect just because of how I look.,anger,high
+My team surprised me with a goodbye party.,joy,medium
+The plane started shaking violently mid-flight.,fear,high
+She's been gone three months and it still feels new.,sadness,medium
+He remembered my coffee order after a year.,surprise,high
+We moved into our first home.,joy,medium
+He remembered our anniversary perfectly.,joy,medium
+Nobody came to my birthday.,sadness,medium
+The drain smelled like something died in it.,disgust,high
+She always twists what I say.,anger,high
+I'm scared the money will run out.,fear,high
+He left without saying a word.,sadness,medium
+She achieved what she worked so hard for.,joy,medium
+We celebrated our 25th anniversary.,joy,medium
+The shadow moved on its own.,fear,high
+He slammed the phone down on me.,anger,high
+The glacier advanced overnight.,surprise,high
+He called just to say he loves me.,joy,medium
+He taught himself to code in three weeks.,surprise,high
+My complaints have been ignored for months.,anger,high
+She never got to meet her grandchildren.,sadness,medium
+I got the job of my dreams today!,joy,medium
+I can't stand the smell of this place.,disgust,high
+She moved away and everything changed.,sadness,medium
+He's alive but feels so far away.,sadness,medium
+He scratches himself and doesn't wash his hands.,disgust,high
+I keep waking up to sounds downstairs.,fear,high
+He left food to rot under the bed.,disgust,high
+The comet was visible with the naked eye.,surprise,high
+The grief is quiet but constant.,sadness,medium
+She said it was too hard.,sadness,medium
+She composed the piece in one sitting.,surprise,high
+She made fun of me in front of my family.,anger,high
+I'm boiling with rage right now.,anger,high
+My heart broke watching her cry.,sadness,medium
+She criticized me without offering solutions.,anger,high
+He lied straight to my face.,anger,high
+They gave me the full scholarship out of nowhere.,surprise,high
+The simplest solution was the right one.,surprise,high
+I found cockroaches in the drawer.,disgust,high
+He won in overtime from two goals down.,surprise,high
+They're twins. I had no idea.,surprise,high
+I've been holding tears in all week.,sadness,medium
+I feel so empty after he left.,sadness,medium
+She bullied someone into isolation.,disgust,high
+I'm so proud of my kids.,joy,medium
+He spoke at the event and brought down the house.,surprise,high
+"I wasn't expecting to win the award. Wow, I don't know what to say!",surprise,high
+We grew apart without meaning to.,sadness,medium
+My heart is overflowing.,joy,medium
+He came back safe from deployment.,joy,medium
+I miss her every single day.,sadness,medium
+I'm so alone.,sadness,medium
+Something is very wrong and I don't know what.,fear,high
+I nearly gagged at the texture.,disgust,high
+I worked all night and got zero recognition.,anger,high
+She was the winner all along.,surprise,high
+She cried alone and I didn't know.,sadness,medium
+The entire city was built underground.,surprise,high
+He built the app in a weekend.,surprise,high
+She stared at the empty chair and her face went white.,fear,high
+She slammed the door in my face.,anger,high
+She spoke 12 languages fluently.,surprise,high
+He touched everything with dirty hands.,disgust,high
+I lost my job and I don't know what to do.,sadness,medium
+She had twins unexpectedly.,surprise,high
+I'm disgusted by their behavior.,disgust,high
+She bullied someone until they cried and recorded it.,disgust,high
+I'm not sure I'm safe.,fear,high
+I froze when I saw the shadow move.,fear,high
+He broke my laptop and just shrugged.,anger,high
+She took all the glory.,anger,high
+I cried myself to sleep again.,sadness,medium
+I'm so done with this.,anger,high
+He learned to walk again.,surprise,high
+She told me my work changed her life.,joy,medium
+He blew his nose at the dinner table.,disgust,high
+She profited from someone else's tragedy.,disgust,high
+He held our baby for the first time.,joy,medium
+She moved on and I'm still here.,sadness,medium
+He asked me to smell the milk after I already knew.,disgust,high
+She never admits when she's wrong.,anger,high
+He took so much of me when he left.,sadness,medium
+I finally understand what happiness feels like.,joy,medium
+She gave away her inheritance to charity.,surprise,high
+The twist made the whole story make sense.,surprise,high
+My application was approved in two hours.,surprise,high
+What if it's too late?,fear,high
+Everything aches.,sadness,medium
+He was everything and now there's nothing.,sadness,medium
+I'm scared I won't make it out of this.,fear,high
+My body was frozen in panic.,fear,high
+What?! He's her brother?,surprise,high
+I finally achieved what I'd been working for.,joy,medium
+I woke up to someone staring at me through the window.,fear,high
+I heard the lock click from outside.,fear,high
+I love this life.,joy,medium
+He showed up uninvited and caused a scene.,anger,high
+Something terrible is about to happen.,fear,high
+He said he didn't need me.,sadness,medium
+We made the impossible happen.,joy,medium
+I saw a rat in the restaurant kitchen.,disgust,high
+I can't unsee what I just saw.,disgust,high
+He proposed and she said yes immediately.,surprise,high
+She picked her nose and kept talking.,disgust,high
+He made me miss my flight.,anger,high
+He just refuses to change.,anger,high
+She left dirty dishes for three weeks.,disgust,high
+I grieve things that haven't even ended yet.,sadness,medium
+That plot twist came out of nowhere.,surprise,high
+She solved the cold case no one had cracked for 30 years.,surprise,high
+The kids laughed so hard they rolled on the floor.,joy,medium
+He farted and fanned it toward others.,disgust,high
+I wasn't enough.,sadness,medium
+She said her final goodbye today.,sadness,medium
+I'm sickened by what I heard.,disgust,high
+I think someone is following me.,fear,high
+I'm beaming right now.,joy,medium
+I don't want to be near this.,disgust,high
+She said 'we're pregnant'.,joy,medium
+He screamed at me in front of everyone.,anger,high
+They took everything and left nothing.,anger,high
+He owes me an apology.,anger,high
+She yelled at me for no reason.,anger,high
+She spat in my direction.,disgust,high
+She showed up at my worst moment and turned it around.,surprise,high
+I'm afraid and I don't know what to do.,fear,high
+The hotel sheets had visible stains.,disgust,high
+The edge was much closer than I realized.,fear,high
+They keep blaming me for their mistakes.,anger,high
+We adopted a rescue dog today.,joy,medium
+I almost vomited during the tour.,disgust,high
+She grew distant and then she was gone.,sadness,medium
+I got promoted!,joy,medium
+She traveled the whole world on $5 a day.,surprise,high
+There was hair in my soup.,disgust,high
+She exploited a mental health crisis for attention.,disgust,high
+I never saw that ending coming.,surprise,high
+The vote was unanimous and I didn't expect that.,surprise,high
+"Wait, she's actually the CEO?",surprise,high
+I can't stop the tears.,sadness,medium
+I feel abandoned.,sadness,medium
+They charged me twice and won't refund.,anger,high
+He promised to help and vanished.,anger,high
+She laughed at a disabled person's expense.,disgust,high
+I could smell the infection.,disgust,high
+He never washes his gym clothes.,disgust,high
+They promoted the bully over me.,anger,high
+She broke the world record and no one had heard of her.,surprise,high
+I got to hug my grandma after two years.,joy,medium
+"Wait, she's younger than me?",surprise,high
+I feel physically ill just thinking about it.,disgust,high
+I'm terrified of losing him.,fear,high
+I got to see the northern lights.,joy,medium
+The whole team celebrated together.,joy,medium
+He wiped his hands on the curtains.,disgust,high
+He dug into a shared dish with his fingers.,disgust,high
+He remembered every single detail I told him three years ago.,surprise,high
+I don't have the energy to pretend anymore.,sadness,medium
+The pills weren't where I left them.,fear,high
+I heard footsteps outside my window at midnight.,fear,high
+The drain was completely clogged with something black.,disgust,high
+He left rotting food for others to deal with.,disgust,high
+I miss her so much it physically hurts.,sadness,medium
+I feel joyful through and through.,joy,medium
+The volcano erupted and revealed a hidden lake.,surprise,high
+I love this chapter of my life.,joy,medium
+I can finally breathe after months of struggle.,joy,medium
+He keeps talking over me in meetings.,anger,high
+The waste was piled in the corridor.,disgust,high
+She said she needed someone better.,sadness,medium
+I'm afraid to face the truth.,fear,high
+I think someone was in my house while I slept.,fear,high
+She undermined me in front of leadership.,anger,high
+I keep imagining the worst outcome.,fear,high
+The dog started growling at the empty hallway.,fear,high
+I'm just sad.,sadness,medium
+She tormented the new kid every day.,disgust,high
+She doesn't look at me the same way anymore.,sadness,medium
+I found a toenail in the restaurant stew.,disgust,high
+She recorded and shared someone's most painful moment.,disgust,high
+She talked behind my back again.,anger,high
+The bathroom was absolutely revolting.,disgust,high
+I mourn the friendship we had.,sadness,medium
+I feel invisible.,sadness,medium
+This is the third time they've messed up my order.,anger,high
+This is completely unacceptable.,anger,high
+I couldn't say what I needed to say in time.,sadness,medium
+The feedback could end my career.,fear,high
+They delayed my surgery and no one cared.,anger,high
+She doesn't remember us anymore.,sadness,medium
+The road ahead just disappeared in the fog.,fear,high
+He apologized sincerely and meant it.,surprise,high
+I feel something heavy in my chest.,sadness,medium
+The weather changed in minutes.,surprise,high
+I woke up and couldn't move my body.,fear,high
+She keeps making me feel small.,anger,high
+I aced my exam.,joy,medium
+They broke the law and faced no consequences.,anger,high
+I finally paid off my student loans!,joy,medium
+I'm afraid the cancer came back.,fear,high
+The package arrived three weeks early!,surprise,high
+I woke up feeling genuinely content.,joy,medium
+She uses others' pain for entertainment.,disgust,high
+Why is the bus always late when I'm in a rush?,anger,high
+She used her platform to spread hate.,disgust,high
+I miss when things were simpler.,sadness,medium
+They offered more than the asking price within an hour.,surprise,high
+This makes my blood boil.,anger,high
+The referee made an awful call and ruined the game.,anger,high
+I'm repulsed by their lack of empathy.,disgust,high
+I just had the best day.,joy,medium
+She went through my private things.,anger,high
+The test came back negative. What a relief!,surprise,high
+She gave my presentation without crediting me.,anger,high
+I love this feeling so much.,joy,medium
+He made me feel like the most special person alive.,joy,medium
+They dismissed everything I said.,anger,high
+I can't eat this.,disgust,high
+Why do they always treat me like I'm invisible?,anger,high
+He survived something no one should survive.,surprise,high
+The sponge hadn't been changed in two years.,disgust,high
+He manipulated the situation.,anger,high
+I didn't know you could do that.,surprise,high
+I've never been so grossed out in my life.,disgust,high
+The discovery changed everything we thought we knew.,surprise,high
+I just got engaged!,joy,medium
+We danced until midnight.,joy,medium
+She used the sick child as a prop.,disgust,high
+My daughter is thriving.,joy,medium
+We found out it's twins!,joy,medium
+They fired me without any warning.,anger,high
+We finally took that vacation.,joy,medium
+He said 'I don't feel the same'.,sadness,medium
+I'm sad in a way that's hard to describe.,sadness,medium
+I'm not letting this go.,anger,high
+We sang in the car like we were teenagers again.,joy,medium
+She took my parking spot I had been waiting for.,anger,high
+I carry this sadness every day.,sadness,medium
+"Wait, he's the same person?",surprise,high
+He never brushes his teeth.,disgust,high
+He forgot everything we built.,sadness,medium
+The butter had green spots all over it.,disgust,high
+I'm afraid she won't survive this.,fear,high
+We welcomed our puppy home today.,joy,medium
+He adopted twelve kids.,surprise,high
+I got the apartment I wanted.,joy,medium
+She didn't even cry.,sadness,medium
+I reconnected with an old friend.,joy,medium
+The doctor said it could be serious.,fear,high
+Something whispered my name.,fear,high
+The building is on fire and we're on the top floor.,fear,high
+She made fun of someone's disability on a live stream.,disgust,high
+She solved the problem in under a minute.,surprise,high
+He held my hand through the whole thing.,joy,medium
+Something isn't right.,fear,high
+I'm sick of being taken for granted.,anger,high
+I'm speechless.,surprise,high
+She smiled at me and my heart just melted.,joy,medium
+She keeps ignoring everything I say.,anger,high
+I don't want to be alone right now.,fear,high
+He took advantage of my situation.,anger,high
+She took advantage of my kindness.,anger,high
+We got the funding for our project.,joy,medium
+I'm completely shocked.,surprise,high
+My instincts are telling me to run.,fear,high
+The trip was everything I dreamed of.,joy,medium
+She got the internship she worked so hard for.,joy,medium
+I completed my first triathlon.,joy,medium
+She walked into her own funeral.,surprise,high
+"Ew, there were maggots in the food I just ate.",disgust,high
+I'm scared to open the email.,fear,high
+I feel like a burden.,sadness,medium
+This is injustice.,anger,high
+I have the best people in my life.,joy,medium
+I feel complete.,joy,medium
+The carpet was covered in stains.,disgust,high
+The caterpillar turned into something spectacular.,surprise,high
+I can't watch them eat.,disgust,high
+My father doesn't recognize me anymore.,sadness,medium
+He knew the capital of every country.,surprise,high
+There was a loud bang and then silence.,fear,high
+He smears grease all over shared surfaces.,disgust,high
+The team lost by one point and I can't believe it.,surprise,high
+I don't want to go back in there.,fear,high
+I can't think straight right now.,fear,high
+He said the crash was unavoidable at that speed.,fear,high
+I feel alive.,joy,medium
+The ending completely blindsided me.,surprise,high
+He ate raw meat straight from the package.,disgust,high
+I laughed more today than I have in months.,joy,medium
+The meteor landed 500 meters from their house.,surprise,high
+He won the raffle on his very first ticket.,surprise,high
+I can't breathe thinking about it.,fear,high
+I was completely blindsided.,surprise,high
+She double-dips every single time.,disgust,high
+I couldn't make it in time.,sadness,medium
+My team won the championship.,joy,medium
+I feel an unexplained dread.,fear,high
+He doesn't remember me.,sadness,medium
+She achieved the impossible.,surprise,high
+They cut my salary without telling me.,anger,high
+The look on his face when he saw the gift.,joy,medium
+My son made me breakfast in bed.,joy,medium
+I've had it.,anger,high
+The sunset was breathtaking.,joy,medium
+You betrayed me.,anger,high
+I have everything I need.,joy,medium
+My legs gave out when I heard the news.,fear,high
+I think there's an intruder downstairs.,fear,high
+She laughed and I melted.,joy,medium
+He said something I will never forgive.,anger,high
+I can't believe anyone would do that.,disgust,high
+He said 'we found something on the X-ray'.,fear,high
+The food tasted incredible.,joy,medium
+The algorithm predicted the winner before a single vote was cast.,surprise,high
+I'm terrified of the unknown.,fear,high
+The sky tonight was absolutely gorgeous.,joy,medium
+I've been staring at the ceiling for hours.,sadness,medium
+I dry-heaved in the aisle.,disgust,high
+He passed away early this morning.,sadness,medium
+I'm afraid I won't make the right choice.,fear,high
+He said he didn't love me anymore.,sadness,medium
+No one listens.,anger,high
+He baked me my favorite cake.,joy,medium
+I've never felt so disrespected.,anger,high
+I couldn't move when I saw the figure at the door.,fear,high
+What if the biopsy comes back positive?,fear,high
+I can't walk past that place anymore.,fear,high
+He smashed my things in anger.,anger,high
+They wasted all the budget and blamed us.,anger,high
+I stepped on a slug barefoot.,disgust,high
+I can't stop grinning.,joy,medium
+He looked through me.,sadness,medium
+She dehumanized someone publicly for entertainment.,disgust,high
+I can barely look at them after that.,disgust,high
+She had been writing secretly for 30 years.,surprise,high
+She knows my full name and we just met.,surprise,high
+I didn't expect tears at a comedy show.,surprise,high
+I keep waiting for something that isn't coming.,sadness,medium
+He moved away and our calls got shorter.,sadness,medium
+There's a strange smell and the alarms aren't working.,fear,high
+"He promised and broke it, again.",anger,high
+I feel like I'm mourning a friendship that's still alive.,sadness,medium
+I feel completely broken.,sadness,medium
+She's gone and I don't know how to do this.,sadness,medium
+Everything about today was beautiful.,joy,medium
+I'm revolted.,disgust,high
+I was stunned into silence.,surprise,high
+I can't believe how lucky I am.,joy,medium
+They always do this to me.,anger,high
+He recognized me after 15 years.,surprise,high
+I'm shaking and I don't know why.,fear,high
+He survived the fall and walked away.,surprise,high
+They ignored every single suggestion I made.,anger,high
+The garbage juice leaked all over the floor.,disgust,high
+She said something unforgivable.,anger,high
+I walked in and everyone yelled surprise.,surprise,high
+He said it quietly: 'we need to talk about your health'.,fear,high
+The forgotten item turned out to be priceless.,surprise,high
+They wasted an entire year of my effort.,anger,high
+I keep hearing things that aren't there.,fear,high
+She said yes.,joy,medium
+I've been crying in the shower.,sadness,medium
+I'm not ready for this life without her.,sadness,medium
+I'm terrified of being abandoned.,fear,high
+He hugged me so tight I forgot everything.,joy,medium
+I'm physically disgusted.,disgust,high
+I was passed over again.,anger,high
+I'm scared to walk home tonight.,fear,high
+She stopped fighting.,sadness,medium
+I'm afraid to be alone tonight.,fear,high
+My hands won't stop trembling.,fear,high
+She never gives me credit.,anger,high
+I have a feeling something awful is about to happen.,fear,high
+We laughed until we cried.,joy,medium
+She exploited a grieving family for views.,disgust,high
+I had no clue it had been hidden in plain sight.,surprise,high
+I'm outraged.,anger,high
+I didn't know that was even possible.,surprise,high
+I'm not going to calm down.,anger,high
+She said it in a way that made my stomach drop.,fear,high
+I feel absolutely alive.,joy,medium
+My hard work was wasted because of their negligence.,anger,high
+The grease trap was overflowing.,disgust,high
+She was found alive after three days.,surprise,high
+I feel heartbroken and lost.,sadness,medium
+I ache for things that are already over.,sadness,medium
+She gave my promotion to someone with half my experience.,anger,high
+The corridor was empty but I wasn't alone.,fear,high
+He surprised me with flowers for no reason.,joy,medium
+The hostel mattress was visibly soiled.,disgust,high
+Something moved behind me and I ran.,fear,high
+I'm finally free.,joy,medium
+He smiled and said 'I love you' for the first time.,surprise,high
+He talked over me the entire meeting.,anger,high
+There were spiders nesting in the jar.,disgust,high
+She returned my gift and bragged about it.,anger,high
+He filed a false complaint against me.,anger,high
+I feel terrified and helpless.,fear,high
+He remembered every little detail.,joy,medium
+I'm frozen with fear.,fear,high
+I'm scared of the dark again.,fear,high
+I woke up and felt genuinely happy.,joy,medium
+The edge was right there and I froze.,fear,high
+He quit his job to become a painter. I didn't see that coming.,surprise,high
+This is not okay.,anger,high
+They never respect my time.,anger,high
+I can't believe he said that.,disgust,high
+I passed my driving test on the first try.,joy,medium
+She got accepted into her dream university.,joy,medium
+Everything feels heavy.,sadness,medium
+I gagged when I opened the fridge.,disgust,high
+I'm living my best life.,joy,medium
+He passed before I could say I love you.,sadness,medium
+There's a dead animal under the porch.,disgust,high
+The results weren't what we hoped for.,fear,high
+I am absolutely furious right now.,anger,high
+I don't know if I'll have a job next week.,fear,high
+The stranger in the crowd was my long-lost cousin.,surprise,high
+I'm scared of becoming my parents.,fear,high
+We watched the sunrise together.,joy,medium
+I'm so angry I can't think straight.,anger,high
+The company just raised prices again with zero notice.,anger,high
+I feel like I'm disappearing.,sadness,medium
+I'm repulsed by what they did.,disgust,high
+She never got to grow old.,sadness,medium
+He took everything I built and left.,anger,high
+I'm revolted by the negligence.,disgust,high
+He broke my trust for the last time.,anger,high
+The audience gave a standing ovation.,joy,medium
+The sound outside my tent was not an animal.,fear,high
+I've been waiting for two hours and they don't even apologize.,anger,high
+She never came back that night.,fear,high
+I'm livid about what happened.,anger,high
+The company called back on the same day.,surprise,high
+He lied to save himself.,anger,high
+She finished the race in under an hour.,surprise,high
+The crowd parted and there she was.,surprise,high
+He never covers his mouth when sneezing.,disgust,high
+They threw me under the bus.,anger,high
+The memories hurt more than I expected.,sadness,medium
+The customer service rep was incredibly rude.,anger,high
+"I feel pure, undiluted joy.",joy,medium
+The river ran brown after the spill.,disgust,high
+He left the country and we haven't spoken since.,sadness,medium
+She got accepted to every school she applied to.,surprise,high
+I never felt more at peace.,joy,medium
+I'm broken in a way I can't explain.,sadness,medium
+I'm so tired of trying.,sadness,medium
+He looked at me like I was his whole world.,joy,medium
+I can't shake the feeling of being watched.,fear,high
+She let her dog eat off the dining plates.,disgust,high
+The leftovers were two weeks old.,disgust,high
+I'm so glad I said yes.,joy,medium
+He proposed with the ring I'd described years ago.,joy,medium
+She left a voicemail I still haven't deleted.,sadness,medium
+The kitchen was absolutely filthy.,disgust,high
+She hugged me and said 'I'm so glad you exist'.,joy,medium
+I can't stop shaking.,fear,high
+The toilet hadn't been cleaned in months.,disgust,high
+I had no idea she was pregnant.,surprise,high
+I'm scared I'm not strong enough for this.,fear,high
+He forgot my birthday.,sadness,medium
+I'm scared of what's coming.,fear,high
+I feel sick just thinking about what they did.,disgust,high
+What if they never find him?,fear,high
+She lied to my face with a smile.,anger,high
+He came home early just to be with me.,joy,medium
+He said our time had passed.,sadness,medium
+Everything reminds me of him.,sadness,medium
+He sneezed on the produce without thinking twice.,disgust,high
+I didn't expect to feel so emotional.,surprise,high
+I lost my temper.,anger,high
+I'm proud of who I've become.,joy,medium
+You had no right to do that.,anger,high
+I can't believe they offered me the job on the spot.,surprise,high
+Stop interrupting me!,anger,high
+He made a racist joke and laughed to himself.,disgust,high
+The slimy texture made me gag.,disgust,high
+I published my first article.,joy,medium
+She glowed with happiness.,joy,medium
+I worked overtime for nothing.,anger,high
+He doesn't even know how much he hurt me.,sadness,medium
+I miss her laugh.,sadness,medium
+I feel so grateful right now.,joy,medium
+I'm disgusted with myself for not saying something.,disgust,high
+I'm exhausted from pretending I'm fine.,sadness,medium
+I can't undo what happened.,sadness,medium
+She picked her teeth at the table.,disgust,high
+She shared the dead animal video on the group chat.,disgust,high
+The photographs broke me.,sadness,medium
+She hasn't come home yet.,fear,high
+She overstepped completely.,anger,high
+They made me feel worthless.,anger,high
+He smells like he hasn't showered in weeks.,disgust,high
+They silenced me when I tried to speak up.,anger,high
+She took photos of a stranger in crisis.,disgust,high
+She exploited the children for money.,disgust,high
+He said goodbye like it was nothing.,sadness,medium
+Everything is falling into place.,joy,medium
+There was a cockroach swimming in my tea.,disgust,high
+He was hiding in plain sight the whole time.,surprise,high
+I found a hundred dollar bill in my old jacket.,surprise,high
+I didn't know rivers could reverse direction.,surprise,high
+He shared his blood disease results publicly to shame her.,disgust,high
+I'm afraid to go back.,fear,high
+The driver cut me off three times.,anger,high
+I feel so wronged.,anger,high
+She had been writing anonymously for years.,surprise,high
+That smell is unbearable.,disgust,high
+She publicly shamed a grieving mother.,disgust,high
+There was a fingernail in my dessert.,disgust,high
+I don't want to touch anything here.,disgust,high
+She whispered 'he's in the house.',fear,high
+He laughed at the victim.,disgust,high
+He showed zero remorse.,anger,high
+I'm nervous something is seriously wrong with me.,fear,high
+He belched in my ear.,disgust,high
+She broke her promise for the hundredth time.,anger,high
+She squealed with delight when she opened it.,joy,medium
+He said he's been fluent in Japanese for years.,surprise,high
+I grieve every day.,sadness,medium
+My mind keeps going to the darkest place.,fear,high
+I'm terrified of the diagnosis.,fear,high
+I feel so loved.,joy,medium
+I didn't recognize the car parked outside for the third night.,fear,high
+He's a millionaire who lives in a tiny house?,surprise,high
+I'm enraged.,anger,high
+My baby said mama for the first time.,joy,medium
+I'm afraid I'm going to be alone forever.,fear,high
+The world feels dull lately.,sadness,medium
+He proposed in front of the whole restaurant.,surprise,high
+I couldn't believe what I was seeing.,surprise,high
+I just finished my first marathon!,joy,medium
+He never shows up on time.,anger,high
+I feel like I lost myself too.,sadness,medium
+He used my toothbrush without asking.,disgust,high
+I can't get out of bed.,sadness,medium
+He drove too fast and I couldn't speak.,fear,high
+My family is safe and healthy.,joy,medium
+I'm scared of my own thoughts.,fear,high
+I can't look at it.,disgust,high
+I turned green looking at it.,disgust,high
+My garden is blooming so beautifully.,joy,medium
+I feel like the light went out.,sadness,medium
+She held my hand and said 'everything's okay'.,joy,medium
+They disregarded all my feedback.,anger,high
+She's a hypocrite and everyone sees it.,disgust,high
+He ignored every message I sent.,anger,high
+I just want to hold onto this feeling forever.,joy,medium
+She made me feel like I could take on the world.,joy,medium
+I can feel my heart in my throat.,fear,high
+She looked at me like I was already gone.,sadness,medium
+I gave everything to this team and they just threw me out.,anger,high
+They refunded everything without me asking.,surprise,high
+The fish market smell was permanently embedded in my clothes.,disgust,high
+I grieved in silence.,sadness,medium
+I don't feel safe walking home anymore.,fear,high
+He walked after months of recovery.,joy,medium
+The world lost someone irreplaceable.,sadness,medium
+She said 'don't scream'.,fear,high
+My heart is pounding so hard.,fear,high
+They destroyed my property.,anger,high
+She found the dress of her dreams.,joy,medium
+They disrespected my culture.,anger,high
+He donated his bone marrow to a stranger.,surprise,high
+The store refused to honor the warranty.,anger,high
+There were worms in the salad.,disgust,high
+They treat interns better than senior employees.,anger,high
+I'm afraid of what they'll find.,fear,high
+There was a layer of grease on everything.,disgust,high
+I'm beyond furious.,anger,high
+Something is definitely in the house.,fear,high
+She chose someone else.,sadness,medium
+They built the bridge in one night.,surprise,high
+She published her first novel at age 82.,surprise,high
+My heart is so full right now.,joy,medium
+I'm terrified of crowds now.,fear,high
+I feel so hopeless.,sadness,medium
+She left and I feel her absence every hour.,sadness,medium
+He's sick and I'm helpless.,sadness,medium
+There was blood on the packaging.,disgust,high
+I feel seen and loved.,joy,medium
+She stole from the team fund.,anger,high
+The test results came back and I'm terrified.,fear,high
+The water is rising fast.,fear,high
+I didn't expect a compliment today.,surprise,high
+"He passed so peacefully, but I wasn't ready.",sadness,medium
+Nobody warned me.,anger,high
+I don't feel like myself anymore.,sadness,medium
+The mystery caller was my father.,surprise,high
+I keep replaying what I could have done differently.,sadness,medium
+I heard my name called by no one.,fear,high
+I was wrongfully accused.,anger,high
+She posted graphic content for shock value.,disgust,high
+He rebuilt the whole thing by hand.,surprise,high
+She told me she loves me.,joy,medium
+I heard someone breathing in the closet.,fear,high
+I'm angry and I have every right to be.,anger,high
+I hate that I was lied to.,anger,high
+She picks her scabs during meetings.,disgust,high
+The company discriminated against me.,anger,high
+She finished her PhD in two years.,surprise,high
+She was the person behind it all.,surprise,high
+He called me his best friend.,joy,medium
+I'm absolutely blown away.,surprise,high
+I thought I failed but I topped the class.,surprise,high
+He takes advantage of elderly people.,disgust,high
+The smell follows you out of the room.,disgust,high
+She recovered fully.,joy,medium
+I thought I saw someone outside the window.,fear,high
+He left everything behind and sailed around the world.,surprise,high
+I saw something I was never supposed to see.,fear,high
+I can't eat knowing where this came from.,disgust,high
+She gossiped about my personal problems.,anger,high
+She made me tea when I was feeling low.,joy,medium
+She won't remember me when she wakes up.,sadness,medium
+She survived all five operations.,surprise,high
+My trust was shattered.,anger,high
+He picks his feet in public.,disgust,high
+I grieve what could have been.,sadness,medium
+I feel sick to my stomach.,disgust,high
+He played the piano and made me cry with joy.,joy,medium
+There's someone in the backyard.,fear,high
+She's not my friend anymore.,sadness,medium
+The fish was still at room temperature.,disgust,high
+She wore the same socks for a month.,disgust,high
+I'm scared I made the wrong choice.,fear,high
+I earned this.,joy,medium
+There were no footprints in the snow but the door was open.,fear,high
+The stranger paid my entire bill.,surprise,high
+The trash hadn't been taken out in weeks.,disgust,high
+I'm floored.,surprise,high
+There was mold in the water bottle.,disgust,high
+He started speaking in perfect French.,surprise,high
+The raw meat smelled sour.,disgust,high
+I could smell the rot from outside.,disgust,high
+I'm too scared to check the notifications.,fear,high
+I felt so small and exposed.,fear,high
+I'm torn between holding on and letting go.,sadness,medium
+I nearly threw up when I saw it.,disgust,high
+He broke into my house.,anger,high
+I'm carrying grief I don't know how to put down.,sadness,medium
+There was a dead mouse in the ventilation.,disgust,high
+My jaw literally dropped.,surprise,high
+I'm incredibly angry right now.,anger,high
+She walked out and never looked back.,sadness,medium
+The car skidded off the road and we almost crashed.,fear,high
+I can't breathe properly when I think about it.,fear,high
+There were flies swarming the food.,disgust,high
+My parents are healthy and happy.,joy,medium
+He never apologizes.,anger,high
+He left and took every trace of joy with him.,sadness,medium
+They said the lab results are urgent.,fear,high
+I've been grieving silently.,sadness,medium
+The scientist discovered a species hiding in plain sight.,surprise,high
+The puppy showed up at the exact right time.,surprise,high
+They keep making excuses.,anger,high
+He coughed into the food without covering his mouth.,disgust,high
+He said the tumor has grown.,fear,high
+She gave up on us.,sadness,medium
+I gagged and left the room.,disgust,high
+I miss who we used to be together.,sadness,medium
+They changed the terms after I signed.,anger,high
+He turned down millions and I still can't believe it.,surprise,high
+I can't tolerate this behavior anymore.,anger,high
+He arrived a year earlier than expected.,surprise,high
+She leaked private messages to humiliate her ex.,disgust,high
+I grieve who I used to be.,sadness,medium
+I didn't expect to see you here.,surprise,high
+What if I fail and lose everything?,fear,high
+My manager humiliated me in front of the client.,anger,high
+My sister had a healthy baby girl.,joy,medium
+I'm afraid the worst hasn't happened yet.,fear,high
+I opened the container and immediately closed it.,disgust,high
+She always undermines my ideas.,anger,high
+The answer was simpler than anyone thought.,surprise,high
+He said 'you're my favorite person'.,joy,medium
+The milk had chunks in it.,disgust,high
+Something followed me home last night.,fear,high
+She grabbed my arm and told me not to look behind us.,fear,high
+I felt nauseous seeing that.,disgust,high
+My neighbor blasts music at 2am every single night.,anger,high
+This is the happiest day of my life.,joy,medium
+I feel deeply and quietly sorrowful.,sadness,medium
+I'm done tolerating this.,anger,high
+He burped directly into the microphone.,disgust,high
+They didn't even apologize for the delay.,anger,high
+He said 'run'.,fear,high
+I miss him every single day.,sadness,medium
+He leaves rotting fruit on his desk.,disgust,high
+He picked up roadkill with his bare hands.,disgust,high
+He made a full recovery when no one expected it.,surprise,high
+He moved on so quickly.,sadness,medium
+My vote doesn't seem to matter.,anger,high
+Nobody cares about fairness anymore.,anger,high
+I'm amazed at what just happened.,surprise,high
+The buyer paid triple what it was worth.,surprise,high
+I'm genuinely terrified of losing my mind.,fear,high
+My whole family cheered.,joy,medium
+He threw up on the table.,disgust,high
+"Out of nowhere, the crowd went wild.",surprise,high
+I feel like I can do anything today.,joy,medium
+The system is rigged.,anger,high
+I'm sickened by what I witnessed.,disgust,high
+He broke my heart with his selfishness.,anger,high
+I never imagined this would happen.,surprise,high
+I'm tired of being sad.,sadness,medium
+The plant flowered after 50 years.,surprise,high
+I'm afraid to sleep.,fear,high
+He insulted me and laughed.,anger,high
+He ate something he found on the ground.,disgust,high
+She walked into the room and my heart lifted.,joy,medium
+Nobody holds them accountable.,anger,high
+We watched the stars and talked all night.,joy,medium
+My chest tightens every time I think about it.,fear,high
+I'm celebrating the small wins today.,joy,medium
+The project was funded in 47 minutes.,surprise,high
+She just showed up at my door after five years.,surprise,high
+She used vulnerable people for profit.,disgust,high
+I get paralyzed just thinking about it.,fear,high
+I keep checking the locks.,fear,high
+I can't stop smiling.,joy,medium
+My son scored his first goal today.,joy,medium
+She used the tragedy to sell merchandise.,disgust,high
+The building started to shake.,fear,high
+We made memories that will last forever.,joy,medium
+He mixed his dirty laundry with the food.,disgust,high
+He never said goodbye.,sadness,medium
+He hasn't come home and isn't answering.,fear,high
+He never takes responsibility.,anger,high
+This is completely unfair.,anger,high
+I don't feel safe here.,fear,high
+There was slime on the hotel pillow.,disgust,high
+My blood is boiling.,anger,high
+"She was born the same day, same hospital, same room as me.",surprise,high
+I'm sad and I can't explain why.,sadness,medium
+The thunder is right overhead.,fear,high
+They gave bonuses to everyone except me.,anger,high
+I'm genuinely shocked.,surprise,high
+She faded from my life slowly.,sadness,medium
+I feel full of hope.,joy,medium
+I feel like no one understands me.,sadness,medium
+I feel so disrespected.,anger,high
+She deliberately left me out.,anger,high
+I feel empty inside.,sadness,medium
+I'm afraid she won't forgive me.,fear,high
+The meat was completely green.,disgust,high
+She's finally cancer free.,joy,medium
+She deliberately humiliated him for fun.,disgust,high
+I wasn't there when he needed me most.,sadness,medium
+The water looked brown when it came out of the tap.,disgust,high
+Something is watching me.,fear,high
+She refuses to cooperate.,anger,high
+She left without looking back.,sadness,medium
+I don't know who I am without her.,sadness,medium
+The silence in this house is deafening.,sadness,medium
+I can't escape this dread.,fear,high
+I feel exploited.,anger,high
+They keep moving the goalposts.,anger,high
+I'm done being the bigger person every time.,anger,high
+He played my favorite song without being asked.,joy,medium
+She was my home and now I'm lost.,sadness,medium
+I feel violated just witnessing that.,disgust,high
+She confessed in front of everyone.,surprise,high
+She spread false rumors about a cancer survivor.,disgust,high
+We spent the whole day in the sun.,joy,medium
+"Out of nowhere, he started singing beautifully.",surprise,high
+She jumped out of the cake!,surprise,high
+I'm nauseated by this injustice.,disgust,high
+My mom called just to say she's proud of me.,joy,medium
+They are never accountable for anything.,anger,high
+They cancelled my order and kept my money.,anger,high
+The check arrived on the most perfect day.,surprise,high
+I'm scared of what I might find.,fear,high
+I can't believe they lied to me after all I've done for them.,anger,high
+He was my best friend.,sadness,medium
+I love being alive on days like this.,joy,medium
+I vomited when I smelled it.,disgust,high
+She beamed with pride.,joy,medium
+He quit smoking cold turkey after 30 years.,surprise,high
+The painting was priceless and had been in their attic.,surprise,high
+The diagnosis might change everything.,fear,high
+"Wait, that was a real person?",surprise,high
+They lied to the whole team.,anger,high
+My work got plagiarized and no one did anything.,anger,high
+He disrespected me in my own home.,anger,high
+I keep checking to see if anyone is behind me.,fear,high
+She lied to the entire department.,anger,high
+No way that just happened.,surprise,high
+I don't know how to move forward.,sadness,medium
+I'm seething with rage.,anger,high
+He keeps gaslighting me.,anger,high
+The silence was the scariest part.,fear,high
+I found a used bandage in my salad.,disgust,high
+He fainted when they told him the amount.,surprise,high
+She faked grief to collect donations.,disgust,high
+I'm overwhelmed by a sadness I can't explain.,sadness,medium
+I can't stop imagining something happening to my kids.,fear,high
+I was taken completely off guard.,surprise,high
+She laughed and the whole room lit up.,joy,medium
+They stole from me.,anger,high
+I ache and I don't know how to stop.,sadness,medium
+My pulse spikes just thinking about the surgery.,fear,high
+The storm is getting worse and we have nowhere to go.,fear,high
+The results were stunning.,surprise,high
+The team hugged when the final whistle blew.,joy,medium
+I feel wonderful.,joy,medium
+She called from the top of Everest.,surprise,high
+I didn't know the moon could look like that.,surprise,high
+The last second goal stunned everyone.,surprise,high
+I tried my best and it still wasn't enough.,sadness,medium
+She called me incompetent in an email to the whole office.,anger,high
+The container had something pulsating in it.,disgust,high
+The experiment produced an unexpected result.,surprise,high
+I'm proud of how far I've come.,joy,medium
+The bridge creaked and swayed under us.,fear,high
+She got her dream role.,joy,medium
+Nobody told me the rules changed.,anger,high
+The fire died as quickly as it started.,surprise,high
+I miss the life I thought I'd have.,sadness,medium
+I was left behind.,sadness,medium
+"Wait, that actually worked?",surprise,high
+I'm scared the worst is yet to come.,fear,high
+She's sick and there's nothing I can do.,sadness,medium
+She showed up 20 years later.,surprise,high
+I am outraged by this injustice.,anger,high
+This incompetence is maddening.,anger,high
+I've been in the same place for so long.,sadness,medium
+I'm done being walked over.,anger,high
+I feel like I'm slowly disappearing.,sadness,medium
+We had to put our dog down today.,sadness,medium
+I've reached my limit.,anger,high
+She wore her graduation cap with so much pride.,joy,medium
+I can't tolerate this filth.,disgust,high
+I tried to hold everything together.,sadness,medium
+She grew ten centimeters taller at age 40.,surprise,high
+I didn't recognize the voice calling my name.,fear,high
+I'm terrified of failing my family.,fear,high
+I feel peaceful and happy.,joy,medium
+I cried reading our old messages.,sadness,medium
+I can't calm down.,fear,high
+We finally did it!,joy,medium
+They canceled the event without a refund.,anger,high
+He burped in my face and didn't apologize.,disgust,high
+I didn't know she spoke six languages.,surprise,high
+I don't think we should be here.,fear,high
+My dream came true today.,joy,medium
+They cut off my access without warning.,anger,high
+I found a used plaster in my soup.,disgust,high
+There were bugs in the cereal box.,disgust,high
+I feel disrespected every single day.,anger,high
+We surprised grandma and she cried with joy.,joy,medium
+I scraped something unidentifiable off the floor.,disgust,high
+I didn't see that coming.,surprise,high
+I'm beyond angry.,anger,high
+They found the lost dog 200 miles away.,surprise,high
+The concert was magical.,joy,medium
+I feel like a stranger in my own life.,sadness,medium
+The locker room smelled unbearable.,disgust,high
+I didn't know octopuses had three hearts.,surprise,high
+This level of cruelty is nauseating.,disgust,high
+I'm not going to let this slide.,anger,high
+My anxiety is at an all-time high.,fear,high
+He ate food off the floor and offered me some.,disgust,high
+I'm grateful for this moment.,joy,medium
+I've been fighting tears all day.,sadness,medium
+I'm frightened for my family.,fear,high
+They said it might be contagious.,fear,high
+She graduated at the top of her class.,joy,medium
+She appeared out of nowhere.,surprise,high
+They voted to cut my department without even asking us.,anger,high
+She found a lump and she's scared.,fear,high
+The door unlocked itself.,fear,high
+I can't stomach what they're doing.,disgust,high
+She shared someone's private photos without consent.,disgust,high
+The smoke detector is screaming and I can't find the source.,fear,high
+She looked pale and whispered 'don't make any noise'.,fear,high
+I've been struggling to find meaning.,sadness,medium
+The whole room smelled like decay.,disgust,high
+She deleted all my files without asking.,anger,high
+My mind is spiraling into the worst possibilities.,fear,high
+He copied my assignment and got a better grade.,anger,high
+I feel so much lighter today.,joy,medium
+The book she wrote in a weekend won an award.,surprise,high
+I never expected that outcome.,surprise,high
+I'm disgusted by human cruelty.,disgust,high
+Turns out the house was built in 1742.,surprise,high
+He said the prognosis isn't good.,fear,high
+I had a nightmare that felt completely real.,fear,high
+He wrapped his arms around me and I felt home.,joy,medium
+He took credit for my work again.,anger,high
+She was the mystery donor all along.,surprise,high
+I saw something at the end of the hall and then it was gone.,fear,high
+I stepped in something and I don't know what.,disgust,high
+I'm afraid of what I might do.,fear,high
+He meant everything to me.,sadness,medium
+I'm still learning to live without them.,sadness,medium
+I'm devastated.,sadness,medium
+I felt someone brush past me in the empty room.,fear,high
+I'll carry this grief forever.,sadness,medium
+I could see the mold through the wrapper.,disgust,high
+I just learned bees make less than a teaspoon of honey in their lifetime.,surprise,high
+I can't fix this.,sadness,medium
+He told everyone my secret.,anger,high
+They upgraded my flight for free.,surprise,high
+I'm genuinely astonished.,surprise,high
+I've been cheated.,anger,high
+She ran a full marathon on a broken ankle.,surprise,high
+There was a knock at 3am.,fear,high
+She sabotaged my project.,anger,high
+I feel like the world kept moving without me.,sadness,medium
+She laughed so hard she snorted.,joy,medium
+She cancelled plans last minute again.,anger,high
+The auction went ten times above estimate.,surprise,high
+I'm heartbroken.,sadness,medium
+I miss the old version of us.,sadness,medium
+My child isn't answering the phone.,fear,high
+The house is so quiet now.,sadness,medium
+I'm seething.,anger,high
+I can't stand how they treat people.,anger,high
+Everything feels so right.,joy,medium
+She recorded someone's breakdown for likes.,disgust,high
+I'm so happy I could burst.,joy,medium
+I can't stop catastrophizing.,fear,high
+Something doesn't feel right about this place.,fear,high
+I'm floating on air.,joy,medium
+I found mold on every single slice of bread.,disgust,high
+He finished first from last place.,surprise,high
+He found the painting in a garage sale.,surprise,high
+He was the last person I expected to lose.,sadness,medium
+I didn't expect this level of kindness.,surprise,high
+I'm not okay.,sadness,medium
+Today was perfect.,joy,medium
+He told me he's proud of me.,joy,medium
+I'm truly frightened.,fear,high
+She stopped calling and I felt it immediately.,sadness,medium
+The expired food was still on the shelf.,disgust,high
+I'm afraid to lose what little I have left.,fear,high
+I just found out they've been lying for months.,anger,high
+She locked herself in the room and won't come out.,fear,high
+She won the lottery and then donated it all.,surprise,high
+She embarrassed me on purpose.,anger,high
+The lights went out and now I can't see anything.,fear,high
+The child drew a masterpiece with finger paints.,surprise,high
+I didn't know there's a waterfall inside that cave.,surprise,high
+I'm afraid I might not wake up.,fear,high
+He asked me to marry him by the ocean.,joy,medium
+They gave me a surprise party and I had no idea.,surprise,high
+He said 'you've been promoted' before I sat down.,surprise,high
+She scored a perfect 100 without even studying.,surprise,high
+I'm terrified of what I saw.,fear,high
+She didn't make it through the night.,sadness,medium
+They demoted me for no valid reason.,anger,high
+He mocked my efforts.,anger,high
+I'm dancing in my kitchen right now.,joy,medium
+He spits on the floor constantly.,disgust,high
+There's something moving in the dark hallway and I'm home alone.,fear,high
+They fired my whole team without warning.,anger,high
+We spent the whole day laughing together.,joy,medium
+I feel physically ill.,disgust,high
+He licked the shared bowl clean.,disgust,high
+I'm emotionally drained.,sadness,medium
+He cheated in the game.,anger,high
+She stole the idea I pitched last week.,anger,high
+I'm mourning a version of my life I never got to live.,sadness,medium
+I'm furious at the system.,anger,high
+She remembered my name after just one meeting two years ago.,surprise,high
+The fire was closer than we thought.,fear,high
+I got a call from my dad and he sounded so happy.,joy,medium
+He ruined my birthday dinner.,anger,high
+My landlord raised rent without any prior notice.,anger,high
+I'm grieving something I never had.,sadness,medium
+I'm dreading tomorrow.,fear,high
+I lost something I'll never get back.,sadness,medium
+I opened the box and found a key.,surprise,high
+I gave everything and came back with nothing.,sadness,medium
+I feel like I'm carrying this all alone.,sadness,medium
+I feel a deep and quiet sadness.,sadness,medium
+I'm so happy.,joy,medium
+The kids were so happy they screamed.,joy,medium
